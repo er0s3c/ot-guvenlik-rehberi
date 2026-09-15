@@ -1,0 +1,39 @@
+zaman_damgasi,kayit_no,kaynak,olcum_noktasi,etiket,deger,birim,kalite_bayragi,guncelleme_yasi_sn,aciklama
+2026-03-10T06:00:00+03:00,HP-0001,historian,TERFI-02,depo_seviye,4.35,m,iyi,12,-
+2026-03-10T06:00:00+03:00,HP-0002,historian,TERFI-02,pompa_debisi,128,m3/h,iyi,12,-
+2026-03-10T06:00:00+03:00,HP-0003,historian,ARITMA-01,klor_bakiye,0.62,mg/L,iyi,20,-
+2026-03-10T06:00:00+03:00,HP-0004,historian,TERFI-01,depo_seviye,3.88,m,iyi,15,-
+2026-03-10T12:00:00+03:00,HP-0005,historian,TERFI-02,depo_seviye,4.10,m,iyi,15,-
+2026-03-10T12:00:00+03:00,HP-0006,historian,TERFI-02,hat_basinci,3.4,bar,iyi,15,-
+2026-03-10T12:00:00+03:00,HP-0007,historian,ARITMA-01,klor_bakiye,0.58,mg/L,iyi,18,-
+2026-03-10T18:00:00+03:00,HP-0008,historian,TERFI-02,depo_seviye,4.55,m,iyi,11,-
+2026-03-10T18:00:00+03:00,HP-0009,historian,TERFI-02,pompa_debisi,134,m3/h,iyi,11,-
+2026-03-10T21:00:00+03:00,HP-0010,historian,TERFI-02,depo_seviye,4.68,m,iyi,14,-
+2026-03-10T22:00:00+03:00,HP-0011,historian,TERFI-02,depo_seviye,4.71,m,iyi,13,-
+2026-03-10T23:00:00+03:00,HP-0012,historian,TERFI-02,depo_seviye,4.76,m,iyi,12,-
+2026-03-10T23:59:40+03:00,HP-0013,historian,PLC-TERFI-02,proje_surum_etiketi,PRJ-TERFI-02-v15,-,iyi,5,kontrolor surum etiketi degisti
+2026-03-11T00:30:00+03:00,HP-0014,historian,TERFI-02,depo_seviye,4.81,m,iyi,12,-
+2026-03-11T01:00:00+03:00,HP-0015,historian,TERFI-02,depo_seviye,4.82,m,iyi,14,-
+2026-03-11T01:26:00+03:00,HP-0016,historian,TERFI-02,depo_seviye,4.82,m,iyi,16,son dogrulanmis telemetri guncellemesi
+2026-03-11T01:56:00+03:00,HP-0017,historian,TERFI-02,depo_seviye,4.82,m,belirsiz,1820,deger onceki kayitla ayni
+2026-03-11T01:56:00+03:00,HP-0018,historian,TERFI-02,pompa_debisi,131,m3/h,belirsiz,1820,deger onceki kayitla ayni
+2026-03-11T02:26:00+03:00,HP-0019,historian,TERFI-02,depo_seviye,4.82,m,eski,3620,-
+2026-03-11T02:30:00+03:00,HP-0020,historian,TERFI-01,depo_seviye,3.91,m,iyi,13,-
+2026-03-11T02:34:00+03:00,HP-0021,hmi_gosterim,TERFI-02,depo_seviye,4.82,m,gosterilmiyor,-,operator ekraninda kalite bayragi alani yok
+2026-03-11T02:56:00+03:00,HP-0022,historian,TERFI-02,depo_seviye,4.82,m,eski,5420,-
+2026-03-11T03:02:00+03:00,HP-0023,alarm,TERFI-02,haberlesme_kesintisi,-,-,-,-,RTU telemetrisi yanit vermiyor
+2026-03-11T03:30:00+03:00,HP-0024,historian,TERFI-02,depo_seviye,4.82,m,eski,7460,-
+2026-03-11T04:00:00+03:00,HP-0025,historian,ARITMA-01,klor_bakiye,0.60,mg/L,iyi,16,diger olcum noktalari guncel
+2026-03-11T05:05:00+03:00,HP-0026,saha_olcum,TERFI-02,depo_seviye,4.16,m,iyi,0,yerel gostergeden okundu
+2026-03-11T06:00:00+03:00,HP-0027,hmi_gosterim,TERFI-02,depo_seviye,4.82,m,gosterilmiyor,-,ekran degeri degismiyor
+2026-03-11T07:00:00+03:00,HP-0028,historian,TERFI-02,depo_seviye,4.82,m,eski,20060,-
+2026-03-11T08:00:00+03:00,HP-0029,historian,TERFI-02,pompa_debisi,131,m3/h,eski,23660,-
+2026-03-11T08:00:00+03:00,HP-0030,historian,TERFI-01,depo_seviye,3.95,m,iyi,13,-
+2026-03-11T09:20:00+03:00,HP-0031,alarm,TERFI-02,tanilama_baslatildi,-,-,-,-,is emri IE-2026-0421
+2026-03-11T11:12:00+03:00,HP-0032,historian,TERFI-02,depo_seviye,4.08,m,iyi,9,telemetri yeniden kuruldu
+2026-03-11T11:12:00+03:00,HP-0033,historian,TERFI-02,pompa_debisi,126,m3/h,iyi,9,-
+2026-03-11T12:00:00+03:00,HP-0034,historian,TERFI-02,depo_seviye,4.14,m,iyi,12,-
+2026-03-11T12:00:00+03:00,HP-0035,historian,ARITMA-01,klor_bakiye,0.59,mg/L,iyi,17,-
+2026-03-11T18:00:00+03:00,HP-0036,historian,TERFI-02,depo_seviye,4.41,m,iyi,13,-
+2026-03-11T21:00:00+03:00,HP-0037,historian,TERFI-02,depo_seviye,4.58,m,iyi,11,-
+2026-03-11T21:00:00+03:00,HP-0038,historian,TERFI-01,depo_seviye,4.02,m,iyi,14,-

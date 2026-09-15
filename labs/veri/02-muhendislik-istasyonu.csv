@@ -1,0 +1,36 @@
+zaman_damgasi,kayit_no,oturum_kimligi,kullanici,istasyon,islem,hedef_varlik,proje_surumu,is_emri,sonuc,aciklama
+2026-03-10T07:05:12+03:00,MI-0001,L-2201,a.duran,MUH-IST-01,yerel_oturum_acildi,-,-,-,basarili,sabah kontrolu
+2026-03-10T07:12:40+03:00,MI-0002,L-2201,a.duran,MUH-IST-01,proje_deposu_goruntulendi,PLC-TERFI-02,PRJ-TERFI-02-v14,-,basarili,salt okuma
+2026-03-10T07:39:58+03:00,MI-0003,L-2201,a.duran,MUH-IST-01,yerel_oturum_kapandi,-,-,-,basarili,sure 35 dk
+2026-03-10T08:44:03+03:00,MI-0004,L-2203,s.bulut,MUH-IST-01,yerel_oturum_acildi,-,-,IE-2026-0398,basarili,saha cihazi degisimi sonrasi
+2026-03-10T08:52:19+03:00,MI-0005,L-2203,s.bulut,MUH-IST-01,cihaz_baglanti_testi,RTU-TERFI-03,-,IE-2026-0398,basarili,yedek parca ile degistirilen donanim devreye alindi
+2026-03-10T09:05:44+03:00,MI-0006,L-2203,s.bulut,MUH-IST-01,etiket_eslemesi_dogrulandi,RTU-TERFI-03,-,IE-2026-0398,basarili,seviye ve debi etiketleri
+2026-03-10T09:21:10+03:00,MI-0007,L-2203,s.bulut,MUH-IST-01,yerel_oturum_kapandi,-,-,IE-2026-0398,basarili,envanter guncellemesi is listesine birakildi
+2026-03-10T10:30:25+03:00,MI-0008,L-2205,a.duran,MUH-IST-01,proje_yedegi_kopyalandi,PLC-TERFI-02,PRJ-TERFI-02-v14,-,basarili,haftalik kopya
+2026-03-10T13:18:07+03:00,MI-0009,L-2207,a.duran,MUH-IST-01,alarm_listesi_goruntulendi,SCADA-01,-,-,basarili,rutin kontrol
+2026-03-10T20:35:00+03:00,MI-0010,SVC-0091,svc.yedek,MUH-IST-01,otomatik_proje_yedegi,PLC-TERFI-02,PRJ-TERFI-02-v14,-,basarili,planli yedekleme
+2026-03-10T22:15:40+03:00,MI-0011,S-4471,tdk.ozmen,MUH-IST-01,uzak_oturum_acildi,-,-,IE-2026-0412,basarili,bakim penceresi
+2026-03-10T22:31:16+03:00,MI-0012,S-4471,tdk.ozmen,MUH-IST-01,proje_dosyasi_acildi,PLC-TERFI-02,PRJ-TERFI-02-v14,IE-2026-0412,basarili,-
+2026-03-10T23:06:52+03:00,MI-0013,S-4471,tdk.ozmen,MUH-IST-01,proje_karsilastirmasi,PLC-TERFI-02,PRJ-TERFI-02-v15-aday,IE-2026-0412,basarili,fark raporu olusturuldu
+2026-03-10T23:58:12+03:00,MI-0014,S-4471,tdk.ozmen,MUH-IST-01,proje_yuklendi,PLC-TERFI-02,PRJ-TERFI-02-v15,IE-2026-0412,basarili,yukleme onayi n.tekin
+2026-03-11T00:09:31+03:00,MI-0015,S-4471,tdk.ozmen,MUH-IST-01,calisma_modu_dogrulandi,PLC-TERFI-02,PRJ-TERFI-02-v15,IE-2026-0412,basarili,-
+2026-03-11T00:23:47+03:00,MI-0016,S-4471,tdk.ozmen,MUH-IST-01,yukleme_sonrasi_okuma,PLC-TERFI-02,PRJ-TERFI-02-v15,IE-2026-0412,basarili,okunan surum yuklenen surumle ayni
+2026-03-11T00:47:05+03:00,MI-0017,S-4471,tdk.ozmen,MUH-IST-01,oturum_notu_kaydedildi,-,-,IE-2026-0412,basarili,kapanis notu
+2026-03-11T00:51:30+03:00,MI-0018,S-4471,tdk.ozmen,MUH-IST-01,uzak_oturum_kapandi,-,-,IE-2026-0412,basarili,istasyon uzerinde gecen sure 156 dk
+2026-03-11T01:26:00+03:00,MI-0019,SVC-0092,svc.izleme,MUH-IST-01,istasyon_saglik_kaydi,-,-,-,basarili,disk ve servis durumu normal
+2026-03-11T03:41:05+03:00,MI-0020,S-4489,tdk.ozmen,MUH-IST-01,uzak_oturum_acildi,-,-,-,basarili,is emri alani bos geldi
+2026-03-11T03:52:38+03:00,MI-0021,S-4489,tdk.ozmen,MUH-IST-01,proje_deposu_goruntulendi,PLC-TERFI-02,PRJ-TERFI-02-v15,-,basarili,salt okuma
+2026-03-11T04:14:20+03:00,MI-0022,S-4489,tdk.ozmen,MUH-IST-01,arsiv_proje_dosyasi_acildi,PLC-TERFI-02,PRJ-TERFI-02-v12,-,basarili,kayitli degisiklik yok
+2026-03-11T04:29:11+03:00,MI-0023,S-4489,tdk.ozmen,MUH-IST-01,cihaz_listesi_goruntulendi,-,-,-,basarili,-
+2026-03-11T04:41:50+03:00,MI-0024,S-4489,tdk.ozmen,MUH-IST-01,proje_dosyasi_yerel_dizine_kopyalandi,PLC-TERFI-02,PRJ-TERFI-02-v15,-,basarili,hedef dizin istasyon uzerinde
+2026-03-11T04:57:20+03:00,MI-0025,S-4489,tdk.ozmen,MUH-IST-01,uzak_oturum_kapandi,-,-,-,basarili,istasyon uzerinde gecen sure 76 dk
+2026-03-11T06:02:14+03:00,MI-0026,L-2212,a.duran,MUH-IST-01,yerel_oturum_acildi,-,-,-,basarili,vardiya devri
+2026-03-11T06:15:39+03:00,MI-0027,L-2212,a.duran,MUH-IST-01,proje_surumu_goruntulendi,PLC-TERFI-02,PRJ-TERFI-02-v15,-,basarili,devir kontrolu
+2026-03-11T06:30:02+03:00,MI-0028,L-2212,a.duran,MUH-IST-01,yerel_oturum_kapandi,-,-,-,basarili,sure 28 dk
+2026-03-11T09:18:44+03:00,MI-0029,L-2215,s.bulut,MUH-IST-01,haberlesme_tanilamasi_baslatildi,RTU-TERFI-02,-,IE-2026-0421,basarili,telemetri yanit vermiyor
+2026-03-11T09:55:27+03:00,MI-0030,L-2215,s.bulut,MUH-IST-01,haberlesme_modulu_arizali_isaretlendi,RTU-TERFI-02,-,IE-2026-0421,basarili,yedek modul talep edildi
+2026-03-11T11:10:08+03:00,MI-0031,L-2217,s.bulut,MUH-IST-01,modul_degisimi_kaydedildi,RTU-TERFI-02,-,IE-2026-0421,basarili,saha ekibi degisimi tamamladi
+2026-03-11T11:40:15+03:00,MI-0032,L-2219,a.duran,MUH-IST-01,alarm_listesi_goruntulendi,SCADA-01,-,-,basarili,haberlesme alarmi kapandi
+2026-03-11T14:22:33+03:00,MI-0033,L-2221,n.tekin,MUH-IST-01,degisiklik_kaydi_kapatildi,PLC-TERFI-02,PRJ-TERFI-02-v15,IE-2026-0412,basarili,kabul kontrolu tamamlandi
+2026-03-11T20:33:00+03:00,MI-0034,SVC-0094,svc.yedek,MUH-IST-01,otomatik_proje_yedegi,PLC-TERFI-02,PRJ-TERFI-02-v15,-,basarili,planli yedekleme
+2026-03-11T22:48:19+03:00,MI-0035,L-2224,a.duran,MUH-IST-01,yerel_oturum_acildi,-,-,-,basarili,gece kontrolu
