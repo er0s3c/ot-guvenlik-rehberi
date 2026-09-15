@@ -45,9 +45,12 @@ Thumbs.db
 ehthumbs.db
 desktop.ini
 
-# Editor / IDE
+# Editor / IDE / AI Agents
 .vscode/
 .idea/
+.claude/
+.gemini/
 *.swp
 *.swo
 *~
+

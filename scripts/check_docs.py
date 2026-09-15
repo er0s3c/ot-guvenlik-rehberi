@@ -46,9 +46,11 @@ def check_documents(root_dir, strict_whitespace=False):
     # Tüm depo dosyalarını dizinle
     all_files = set()
     for dp, dn, fns in os.walk(root_dir):
-        # Yalnızca .git ve __pycache__ dizinlerini yoksay
         rel_dp = os.path.relpath(dp, root_dir).replace('\\', '/')
-        if rel_dp == '.git' or rel_dp.startswith('.git/') or '__pycache__' in rel_dp:
+        # .git, .claude, .gemini ve __pycache__ dizinlerini yoksay (.github hariç)
+        if (rel_dp.startswith('.git') and not rel_dp.startswith('.github')) or \
+           rel_dp.startswith('.claude') or rel_dp.startswith('.gemini') or \
+           '__pycache__' in rel_dp:
             continue
         for fn in fns:
             full = os.path.join(dp, fn)
