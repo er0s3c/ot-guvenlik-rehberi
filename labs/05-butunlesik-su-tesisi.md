@@ -50,7 +50,7 @@ Oklar işlevsel veri ilişkileridir; firewall satırlarıyla birebir aynı deği
 
 ## 3. Protokol ve firewall matrisi
 
-Protokoller kurgu için seçilmiştir; cihaz desteği ve güvenli profil henüz doğrulanmamıştır. Modbus Security veya OPC UA güvenli mod desteği bir porttan varsayılmaz. [Protokol kataloğu](../docs/07-protokoller/01-protokol-katalogu.md)
+Protokoller kurgu için seçilmiştir; cihaz desteği ve güvenli profil henüz doğrulanmamıştır. Modbus Security veya OPC UA güvenli mod desteği bir porttan varsayılmaz. [Protokol seçim rehberi](../docs/07-protokoller/00-secim-ve-karsilastirma.md)
 
 | Akış | Oturumu başlatan → hedef | İşlev / tasarım seçimi | Karar ve koşul | Kayıt / kabul |
 |---|---|---|---|---|

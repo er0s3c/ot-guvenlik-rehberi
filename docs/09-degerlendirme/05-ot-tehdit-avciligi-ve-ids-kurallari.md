@@ -134,6 +134,6 @@ OT olay müdahalesi veya paket analizi sırasında analistin hızlıca filtrelem
 - [Suricata ICS Kural Dosyası](../../research/suricata-ics-rules.rules)
 - [OT SOC ve Adli İnceleme Rehberi](02-izleme-soc-ve-adli-inceleme.md)
 - [İzleme ve Algılama Temelleri](../04-savunma/03-izleme-ve-algilama.md)
-- [Protokol Kataloğu](../07-protokoller/01-protokol-katalogu.md)
+- [Protokol Seçim Rehberi](../07-protokoller/00-secim-ve-karsilastirma.md)
 - [Zeek Network Security Monitor ICS Analyzers](https://github.com/cisagov/ics-zeek-build)
 - [CISA ICS-CERT Snort & Suricata Signatures](https://www.cisa.gov/resources-tools/resources/ics-cert-advisories)

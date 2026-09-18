@@ -1,6 +1,6 @@
 # Laboratuvar 6 — Tek bilgisayarda OT laboratuvarı tasarlama
 
-[Laboratuvarlar](README.md) · [Araç karşılaştırması](../docs/10-araclar-ve-maliyet/01-arac-ve-urun-karsilastirmasi.md) · [Protokol çalışmaları](../docs/07-protokoller/01-protokol-katalogu.md)
+[Laboratuvarlar](README.md) · [Araç karşılaştırması](../docs/10-araclar-ve-maliyet/01-arac-ve-urun-karsilastirmasi.md) · [Protokol çalışmaları](../docs/07-protokoller/00-secim-ve-karsilastirma.md)
 
 Bu Markdown alıştırmasının çıktısı bir mimari ve kabul planıdır. VMware, Windows, Linux, PLC simülatörü veya güvenlik ürünü kurulması gerekmez; bu depoda hazırlanmış VM, çalıştırılmış ortam ya da hazır PCAP yoktur. Kurulum yapmak isteyen okur seçtiği ürünün güncel resmî belgesini ve lisansını ayrıca değerlendirir. Aşağıdaki bütün varlık ve akışlar kurgusaldır.
 

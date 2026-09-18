@@ -1,6 +1,6 @@
 # Playbook 03: Endüstriyel Protokol Sahteciliği ve DoS Müdahalesi
 
-[Playbook Dizini](README.md) · [Endüstriyel Protokoller](../../01-temeller/04-endustriyel-protokoller.md) · [Trafik Analizi](../../07-protokoller/03-trafik-analizi-ve-protokol-secimi.md)
+[Playbook Dizini](README.md) · [Endüstriyel Protokoller](../../01-temeller/04-endustriyel-protokoller.md) · [Trafik Analizi](../../07-protokoller/08-trafik-analizi-ve-protokol-secimi.md)
 
 Bu operasyonel kılavuz; sahada veya kontrol merkezinde sahte endüstriyel mesaj enjeksiyonu (IEC 61850 GOOSE/SV Spoofing, Modbus FC16 enjeksiyonu, DNP3 replay, IEC 104 sahte komut) veya ağ taşması (DoS) tespit edildiğinde uygulanacak izolasyon ve güvenli manuel işletim adımlarını tanımlar.
 

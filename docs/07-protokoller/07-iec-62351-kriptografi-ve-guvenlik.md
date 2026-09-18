@@ -1,8 +1,8 @@
-# IEC 62351 endüstriyel haberleşme güvenliği ve kriptografi
+# IEC 62351 Endüstriyel Haberleşme Güvenliği ve Kriptografi
 
-[Ana sayfa](../../README.md) · [Protokol kataloğu](01-protokol-katalogu.md) · [Modbus ve OPC UA](02-modbus-ve-opc-ua-guvenligi.md) · [Trafik analizi](03-trafik-analizi-ve-protokol-secimi.md) · [Sektörel senaryolar](../02-sektorler/senaryolar/02-elektrik-enerji-senaryolari.md)
+[Ana sayfa](../../README.md) · [Seçim ve Karşılaştırma](00-secim-ve-karsilastirma.md) · [DNP3 ve IEC 104](04-dnp3-ve-iec-60870-5-104.md) · [PROFINET ve IEC 61850](06-profinet-profibus-ve-iec-61850.md) · [Trafik Analizi](08-trafik-analizi-ve-protokol-secimi.md)
 
-**İnceleme tarihi: 18.09.2026.** Bu bölüm, enerji iletim/dağıtım, su altyapıları ve akıllı şebekelerde kullanılan telekontrol protokollerinin (IEC 60870-5-104, DNP3, IEC 61850) siber güvenliğini sağlamak amacıyla **IEC TC 57 / WG 15** tarafından geliştirilen **IEC 62351** standart ailesini ve endüstriyel kriptografi mimarisini inceler.
+Bu bölüm, enerji iletim/dağıtım, su altyapıları ve akıllı şebekelerde kullanılan telekontrol protokollerinin (IEC 60870-5-104, DNP3, IEC 61850) siber güvenliğini sağlamak amacıyla **IEC TC 57 / WG 15** tarafından geliştirilen **IEC 62351** standart ailesini ve endüstriyel kriptografi mimarisini inceler.
 
 ---
 
@@ -98,7 +98,7 @@ sequenceDiagram
 
 ---
 
-### 3.2. DNP3 Secure Authentication v5 (IEC 62351-5 / SAv5 / IEEE 1815.1)
+## 4. DNP3 Secure Authentication v5 (IEC 62351-5 / SAv5 / IEEE 1815.1)
 
 DNP3 SAv5, TLS gibi tüm kanalı şifrelemek yerine **Uygulama Katmanı Güvenli Kimlik Doğrulama (Application-Layer Challenge-Response)** yaklaşımını kullanır. Bu sayede seri hatlarda (RS-485) veya düşük bant genişlikli radyo linklerinde de çalışabilir:
 
@@ -128,7 +128,7 @@ sequenceDiagram
 
 ---
 
-### 3.3. IEC 61850 GOOSE ve Sampled Values Güvenliği (IEC 62351-6 / HMAC)
+## 5. IEC 61850 GOOSE ve Sampled Values Güvenliği (IEC 62351-6 / HMAC)
 
 IEC 61850 GOOSE ve Sampled Values (SV) protokolleri, koruma röleleri arasında açma sinyallerini (Trip) ve akım/gerilim dalga örneklerini taşır. Bu mesajlar **Katman 2 (Ethernet Multicast)** üzerinde doğrudan çalışır ve **3 ila 4 milisaniye (ms)** içinde hedefe ulaşmak zorundadır.
 
@@ -157,7 +157,7 @@ flowchart LR
 
 ---
 
-## 4. Anahtar Yönetimi ve PKI Mimarisi (IEC 62351-9)
+## 6. Anahtar Yönetimi ve PKI Mimarisi (IEC 62351-9)
 
 Kriptografik güvenliğin sahadaki başarısı, yüzlerce RTU ve IED'nin sertifika/anahtar yaşam döngüsünün nasıl yönetildiğine bağlıdır:
 
@@ -185,13 +185,13 @@ flowchart TD
     CRL_Server -.->|Periyodik CRL Yukleme| RTU
 ```
 
-### 4.1. Sertifika Dağıtım Protokolleri (EST vs SCEP)
+### 6.1. Sertifika Dağıtım Protokolleri (EST vs SCEP)
 * **EST (Enrollment over Secure Transport - RFC 7030):** IEC 62351-9 tarafından modern IED'ler için önerilen standarttır. TLS üzerinden çalışır ve ECC/RSA sertifikalarının otomatik olarak talep edilmesini, imzalanmasını ve yenilenmesini sağlar.
 * **Offline / Manuel Yükleme:** İzole, dış ağa kapalı küçük trafo merkezlerinde sertifikalar şifreli USB bellekler veya yerel mühendislik istasyonu (EWS) üzerinden doğrudan yüklenir.
 
 ---
 
-## 5. Sahada Uygulama Zorlukları ve Karşılaşma Matrisi
+## 7. Sahada Uygulama Zorlukları ve Karşılaşma Matrisi
 
 | Mühendislik Zorluğu | Risk / Olası Etki | IEC 62351 Çözümü ve Savunma Kuralı |
 |---|---|---|
@@ -202,27 +202,7 @@ flowchart TD
 
 ---
 
-## 6. Mühendislik Doğrulama ve Masa Başı Test Kartı
-
-**Test Senaryosu:** IEC 60870-5-104 telekontrol hattında TLS 1.3 ve DNP3 hattında SAv5 güvenlik denetimi.
-
-```text
-[TEST ADIMI 1] Yetkisiz İstemci Reddi:
-- Beklenen: SCADA IP'si taklit edilse bile geçerli mTLS istemci sertifikası olmayan bağlantı TCP el sıkışmasında kesilmelidir.
-- Kanıt: RTU Güvenlik Günlüğü -> "TLS handshake failed: unknown CA / client certificate missing".
-
-[TEST ADIMI 2] DNP3 Replay Saldırısı:
-- Beklenen: Yakalanan eski bir "Trip Circuit Breaker" DNP3 paketi hatta yeniden basıldığında Challenge Nonce uyuşmazlığı nedeniyle reddedilmelidir.
-- Kanıt: Outstation Güvenlik Günlüğü -> "SAv5 Authentication Failure: Invalid sequence number / Nonce mismatch".
-
-[TEST ADIMI 3] GOOSE HMAC Bütünlüğü:
-- Beklenen: GOOSE paketindeki durum numarası (stNum) değiştirildiğinde alıcı IED paketi düşürmelidir.
-- Kanıt: Röle Olay Kaydı -> "GOOSE Security Error: HMAC signature verification failed".
-```
-
----
-
-## 7. Kaynaklar ve İlgili Standartlar
+## 8. Kaynaklar ve İlgili Standartlar
 
 - [IEC 62351-3:2014, Profiles including TCP/IP](https://webstore.iec.ch/en/publication/6905)
 - [IEC 62351-5:2023, Security for IEC 60870-5 and Derivatives](https://webstore.iec.ch/en/publication/66042)

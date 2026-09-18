@@ -70,10 +70,9 @@ Başlangıç programı: [sekiz haftalık öğrenme yolu](docs/00-ogrenme-yolu.md
 
 ### 6. Protokoller ve teknik inceleme
 
-- [On dört protokol ailesi: taşıma, işlev ve güvenlik profilleri](docs/07-protokoller/01-protokol-katalogu.md)
-- [Modbus ve OPC UA güvenliği](docs/07-protokoller/02-modbus-ve-opc-ua-guvenligi.md)
-- [Çevrimdışı trafik analizi ve protokol seçimi](docs/07-protokoller/03-trafik-analizi-ve-protokol-secimi.md)
-- [IEC 62351 endüstriyel haberleşme güvenliği ve kriptografi](docs/07-protokoller/04-iec-62351-kriptografi-ve-guvenlik.md)
+- [Endüstriyel Protokol Seçim ve Karşılaştırma Rehberi](docs/07-protokoller/00-secim-ve-karsilastirma.md): [Modbus Güvenliği](docs/07-protokoller/01-modbus-guvenligi-ve-istismar.md), [Siemens S7](docs/07-protokoller/02-siemens-s7-ve-s7comm-plus.md), [EtherNet/IP](docs/07-protokoller/03-ethernet-ip-ve-cip-security.md), [DNP3 & IEC 104](docs/07-protokoller/04-dnp3-ve-iec-60870-5-104.md), [OPC UA](docs/07-protokoller/05-opc-ua-ve-opc-classic.md), [PROFINET & IEC 61850](docs/07-protokoller/06-profinet-profibus-ve-iec-61850.md)
+- [IEC 62351 endüstriyel haberleşme güvenliği ve kriptografi](docs/07-protokoller/07-iec-62351-kriptografi-ve-guvenlik.md)
+- [Çevrimdışı trafik analizi ve protokol seçimi](docs/07-protokoller/08-trafik-analizi-ve-protokol-secimi.md)
 
 ### 7. Mimari, kimlik ve varlık güvenliği
 

@@ -21,10 +21,10 @@ Bu harita, elli öğrenme başlığını deponun Markdown içeriklerine bağlar.
 | 04 | Zero Trust OT | [Kimlik ve politika](08-mimari-ve-erisim/01-zero-trust-rbac-ve-pam.md), [Zero Trust](08-mimari-ve-erisim/rbac/05-pam-ve-zero-trust.md) | Kullanıcı/cihaz/politika kararları ve JIT erişim |
 | 05 | RBAC | [RBAC seçim rehberi](08-mimari-ve-erisim/rbac/00-secim-ve-karsilastirma.md), [şablon](../templates/12-ot-rbac-ve-umc-tasarim-sablonu.md) | AD, RADIUS, UMC, üretici ve OPC UA yetki eşlemeleri |
 | 06 | PAM | [PAM ve kasa](08-mimari-ve-erisim/rbac/05-pam-ve-zero-trust.md) | Sır, onay, oturum ve break-glass kasalama |
-| 07 | OT protokolleri | [On dört aile](07-protokoller/01-protokol-katalogu.md), [IEC 62351](07-protokoller/04-iec-62351-kriptografi-ve-guvenlik.md) | Taşıma, port, işlev ve kriptografi profilleri |
-| 08 | Protokol seçimi | [Karar karşılaştırmaları](07-protokoller/03-trafik-analizi-ve-protokol-secimi.md) | Dört karşılaştırma için gerekçeli seçim |
-| 09 | Modbus güvenliği | [Modbus ve OPC UA](07-protokoller/02-modbus-ve-opc-ua-guvenligi.md) | İşlem türü, yetki ve telafi kontrolü |
-| 10 | OPC UA güvenliği | [Güvenli iletişim](07-protokoller/02-modbus-ve-opc-ua-guvenligi.md) | Uç, kullanıcı, sertifika ve politika kabulü |
+| 07 | OT protokolleri | [Seçim rehberi](07-protokoller/00-secim-ve-karsilastirma.md), [IEC 62351](07-protokoller/07-iec-62351-kriptografi-ve-guvenlik.md) | Taşıma, port, işlev ve kriptografi profilleri |
+| 08 | Protokol seçimi | [Karar karşılaştırmaları](07-protokoller/00-secim-ve-karsilastirma.md), [analiz](07-protokoller/08-trafik-analizi-ve-protokol-secimi.md) | Gerekçeli seçim ve karar matrisi |
+| 09 | Modbus güvenliği | [Modbus istismar önleme](07-protokoller/01-modbus-guvenligi-ve-istismar.md) | İşlem türü, yetki, FC analizi ve DPI filtreleme |
+| 10 | OPC UA güvenliği | [OPC UA ve Classic](07-protokoller/05-opc-ua-ve-opc-classic.md) | Uç, kullanıcı, sertifika, GDS ve Part 18 RBAC |
 | 11 | Industrial firewall | [Sınır kontrolü](08-mimari-ve-erisim/02-firewall-dmz-ve-uzak-erisim.md), [ürünler](10-araclar-ve-maliyet/01-arac-ve-urun-karsilastirmasi.md) | L3/L7 ihtiyacı ve kabul soruları |
 | 12 | Segmentasyon | [Bölge geçişleri](08-mimari-ve-erisim/02-firewall-dmz-ve-uzak-erisim.md) | VLAN, yönlendirme ve izin/ret ayrımı |
 | 13 | Industrial DMZ | [Servis yerleşimi](08-mimari-ve-erisim/02-firewall-dmz-ve-uzak-erisim.md) | Bakım, kopyalama ve güncelleme akışları |
@@ -47,7 +47,7 @@ Bu harita, elli öğrenme başlığını deponun Markdown içeriklerine bağlar.
 | 30 | OT forensics | [Kanıt incelemesi](09-degerlendirme/02-izleme-soc-ve-adli-inceleme.md), [kayıt labı](../labs/01-kayit-analizi.md) | Zaman çizelgesi, bütünlük ve kanıt zinciri |
 | 31 | Honeypot | [Araçların kapsamı](10-araclar-ve-maliyet/01-arac-ve-urun-karsilastirmasi.md), [tasarım](../labs/06-sanal-laboratuvar-tasarimi.md) | Ayrı tuzak bölgesi ve gözlem sınırı |
 | 32 | Windows/VMware lab tasarımı | [Sanal laboratuvar belgesi](../labs/06-sanal-laboratuvar-tasarimi.md) | Kaynak/izolasyon/geri dönüş kabul planı |
-| 33 | Trafik analizi | [Çevrimdışı filtreler](07-protokoller/03-trafik-analizi-ve-protokol-secimi.md) | Normal davranış ve veri boşluğu raporu |
+| 33 | Trafik analizi | [Çevrimdışı filtreler](07-protokoller/08-trafik-analizi-ve-protokol-secimi.md) | Normal davranış ve veri boşluğu raporu |
 | 34 | Zafiyet taraması | [Yöntem ve etki ayrımı](09-degerlendirme/01-guvenlik-degerlendirmesi-ve-test-plani.md) | Pasif/aktif yöntem kararı; hedef komutu yok |
 | 35 | Hardening | [Yedi varlık sınıfı](08-mimari-ve-erisim/03-plc-hmi-ve-scada-sikilastirma.md) | Kontrol, kanıt, doğrulayan ve tarih |
 | 36 | Ticari ürün karşılaştırması | [Ürün tablosu](10-araclar-ve-maliyet/01-arac-ve-urun-karsilastirmasi.md) | İşlev, dağıtım, kısıt ve lisans karşılaştırması |

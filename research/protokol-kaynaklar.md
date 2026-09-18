@@ -1,6 +1,6 @@
 # Protokol kaynakları ve iddia sınırları
 
-[Araştırma yöntemi](YONTEM.md) · [Protokol kataloğu](../docs/07-protokoller/01-protokol-katalogu.md) · [Modbus ve OPC UA](../docs/07-protokoller/02-modbus-ve-opc-ua-guvenligi.md) · [Trafik analizi ve seçim](../docs/07-protokoller/03-trafik-analizi-ve-protokol-secimi.md)
+[Araştırma yöntemi](YONTEM.md) · [Protokol Seçim Rehberi](../docs/07-protokoller/00-secim-ve-karsilastirma.md) · [Modbus Güvenliği](../docs/07-protokoller/01-modbus-guvenligi-ve-istismar.md) · [OPC UA](../docs/07-protokoller/05-opc-ua-ve-opc-classic.md) · [Trafik Analizi](../docs/07-protokoller/08-trafik-analizi-ve-protokol-secimi.md)
 
 Bu kayıt protokol genişletmesi sırasında okunan birincil kaynakları ve kullanılmayan iddiaları toplar. **Bütün satırların erişim tarihi 16.09.2026'dır.** Bu tarih yayın tarihi değildir. Kaynaklar bütün ürün ailelerinin özellik veya uyumluluk tablosu olarak okunmaz. Kayıttaki eski belgeler temel iletişim biçimini açıklamak için kullanılır; bugünkü ürün durumunu kanıtlamaz.
 

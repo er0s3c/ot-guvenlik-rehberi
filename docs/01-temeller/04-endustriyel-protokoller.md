@@ -4,9 +4,10 @@ Protokol, iki sistemin veri ve işlevleri hangi kurallarla paylaştığını bel
 
 Bu sayfa başlangıç çerçevesidir. Ayrıntılı okuma ve belge alıştırmaları:
 
-- [On dört protokol ailesinin kataloğu](../07-protokoller/01-protokol-katalogu.md): taşıma/port ayrımı, güvenlik profilleri ve envanter incelemesi.
-- [Modbus ve OPC UA güvenliği](../07-protokoller/02-modbus-ve-opc-ua-guvenligi.md): function code, SecureChannel, sertifika ve yetki denetimleri.
-- [Trafik analizi ve protokol seçimi](../07-protokoller/03-trafik-analizi-ve-protokol-secimi.md): çevrimdışı filtreler, sentetik normal trafik profili ve dört seçim karşılaştırması.
+- [Endüstriyel Protokol Seçim ve Karşılaştırma Rehberi](../07-protokoller/00-secim-ve-karsilastirma.md): Taşıma, port, latans ve kriptografi profilleri.
+- [Modbus Güvenliği ve İstismar Önleme](../07-protokoller/01-modbus-guvenligi-ve-istismar.md): Function code, register manipülasyonu ve DPI kontrolleri.
+- [OPC UA ve OPC Classic Güvenliği](../07-protokoller/05-opc-ua-ve-opc-classic.md): SecureChannel, sertifika yaşam döngüsü ve Part 18 RBAC.
+- [Trafik Analizi ve Protokol Seçimi](../07-protokoller/08-trafik-analizi-ve-protokol-secimi.md): Çevrimdışı filtreler, sentetik normal trafik profili ve karar matrisi.
 
 ## Başlıca aileler
 
@@ -21,7 +22,7 @@ Bu sayfa başlangıç çerçevesidir. Ayrıntılı okuma ve belge alıştırmala
 | PROFINET / EtherNet/IP | Endüstriyel Ethernet üzerinde otomasyon | Gerçek zaman davranışı, cihaz profili, mühendislik ve veri trafiği ayrılır |
 | Üreticiye özgü protokoller | Programlama, tanılama, cihaz yönetimi | Kamuya açık genel bilgi yetersizse üretici belgesi ve onaylı yapılandırma esas alınır |
 
-Tablo bir tanıma haritasıdır. DNP3 ve enerji protokollerinin sektör bağlamı [elektrik bölümünde](../02-sektorler/02-elektrik-ve-enerji.md), bütün ailelerin teknik kaynakları [protokol kataloğunda](../07-protokoller/01-protokol-katalogu.md) yer alır. Doğrudan seri hat veya Ethernet L2 düzeyinde taşınan iletiler TCP/UDP portuyla tanımlanmaz; IEC 61850 ve PROFINET gibi aileler tek porta indirgenmez. Bir ürünün aileyi desteklemesi, güvenli profilin desteklendiği veya etkin olduğu iddiası değildir.
+Tablo bir tanıma haritasıdır. DNP3 ve enerji protokollerinin sektör bağlamı [elektrik bölümünde](../02-sektorler/02-elektrik-ve-enerji.md), bütün ailelerin teknik kaynakları [protokol seçim rehberinde](../07-protokoller/00-secim-ve-karsilastirma.md) yer alır. Doğrudan seri hat veya Ethernet L2 düzeyinde taşınan iletiler TCP/UDP portuyla tanımlanmaz; IEC 61850 ve PROFINET gibi aileler tek porta indirgenmez. Bir ürünün aileyi desteklemesi, güvenli profilin desteklendiği veya etkin olduğu iddiası değildir.
 
 ## Modbus: klasik protokol ile güvenli profil ayrımı
 
