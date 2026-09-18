@@ -2,7 +2,7 @@
 
 [Ana sayfa](../README.md) · [Varlık envanteri ve görünürlük](../docs/04-savunma/01-envanter-ve-gorunurluk.md) · [Çevrimdışı laboratuvarlar](../labs/README.md)
 
-Bu dizindeki dokuz şablon, rehberdeki bölümlerin çıktısını yazılı bir kayda dönüştürmek içindir. İlk altı form işletme kayıtlarına, son üçü ders, değerlendirme ve final proje çalışmalarına yöneliktir. İçlerindeki örnek değerler kurgusaldır; uygunluk beyanı veya yapılmış saha testi yerine geçmez.
+Bu dizindeki on iki şablon, rehberdeki bölümlerin çıktısını yazılı bir kayda dönüştürmek içindir. İlk altı form işletme kayıtlarına, 07-09 arası ders, değerlendirme ve final proje çalışmalarına, 10-12 arası ise denetim, standart uyumu ve RBAC/kimlik tasarımı çalışmalarına yöneliktir. İçlerindeki örnek değerler kurgusaldır; uygunluk beyanı veya yapılmış saha testi yerine geçmez.
 
 ## Nasıl kullanılır
 
@@ -14,22 +14,22 @@ Bu dizindeki dokuz şablon, rehberdeki bölümlerin çıktısını yazılı bir 
 
 Şablonları gerçek bir tesise dokunmadan denemek için [çevrimdışı laboratuvarlardaki](../labs/README.md) kurgusal veri kullanılabilir.
 
-## Dokuz şablon
+## Çalışma şablonları listesi
 
 | Şablon | Ne zaman kullanılır? | Kim doldurur? | Çıktı neye yarar? | İlgili bölüm |
 |---|---|---|---|---|
-| [01 Envanter ve akış](01-envanter-ve-akis.md) | Envanter çalışmasının başında ve her mimari değişiklikte | Varlık sahibi, otomasyon/bakım ve ağ sorumlusu birlikte | İşlev, sahip, bağımlılık ve akış eşlemesi; diğer beş şablonun girdisi | [Varlık envanteri ve görünürlük](../docs/04-savunma/01-envanter-ve-gorunurluk.md) |
+| [01 Envanter ve akış](01-envanter-ve-akis.md) | Envanter çalışmasının başında ve her mimari değişiklikte | Varlık sahibi, otomasyon/bakım ve ağ sorumlusu birlikte | İşlev, sahip, bağımlılık ve akış eşlemesi; diğer şablonların girdisi | [Varlık envanteri ve görünürlük](../docs/04-savunma/01-envanter-ve-gorunurluk.md) |
 | [02 Tehdit modeli](02-tehdit-modeli.md) | Yeni sistem, yeni bağlantı veya dönemsel gözden geçirmede | Güvenlik ekibi, süreç mühendisi ve işletme temsilcisi | Hedef, ön koşul, aşılan güven sınırı, olası etki, belirti ve kontrol eşlemesi | [Saldırgan bakış açısı](../docs/03-tehdit-modelleme/01-saldirgan-bakis-acisi.md) |
 | [03 Algılama kartı](03-algilama-karti.md) | Yeni bir alarm veya analitik önerildiğinde ve ölçüm gözden geçirmesinde | SOC analisti ile OT işlev sorumlusu | Bağlamı, sahibi ve normal açıklaması tanımlı alarm; yanlış pozitif incelemesi | [İzleme ve algılama](../docs/04-savunma/03-izleme-ve-algilama.md) |
 | [04 Olay ve kurtarma](04-olay-ve-kurtarma.md) | Tatbikat sırasında, olay anında ve olay sonrası değerlendirmede | Olay yöneticisi, vardiya amiri, proses mühendisi | Zaman çizelgesi, karar ve kanıt kaydı; mühendis onaylı geri dönüş kapıları | [Olay müdahalesi ve kurtarma](../docs/04-savunma/05-olay-mudahalesi-ve-kurtarma.md) |
 | [05 Değişiklik ve kabul](05-degisiklik-ve-kabul.md) | Yama, proje/ayar değişikliği, cihaz değişimi ve devreye almada | Değişiklik sahibi, onaylayan ve testi yürüten | Onay, test planı, geri dönüş yolu ve kabul kanıtı | [Zafiyet ve değişiklik yönetimi](../docs/04-savunma/04-zafiyet-ve-degisiklik-yonetimi.md) |
 | [06 Tedarikçi ve uzak erişim](06-tedarikci-ve-uzak-erisim.md) | Tedarikçi sözleşmesinde, yeni uzak erişim yolunda ve dönemsel incelemede | Sözleşme sahibi, güvenlik ekibi ve işletme | Kişi, hedef, süre, kayıt ve iptal koşulu tanımlı erişim kaydı | [Segmentasyon ve uzak erişim](../docs/04-savunma/02-segmentasyon-ve-uzak-erisim.md) |
-
 | [07 Ders ve değerlendirme](07-ders-ve-degerlendirme.md) | Bir konu çalışılırken | Okur ve değerlendirici | Yirmi alan, beş aşamalı teslim ve düzeltme kaydı | [Konu haritası](../docs/11-konu-haritasi.md) |
 | [08 Değerlendirme ve risk](08-degerlendirme-ve-risk-kaydi.md) | Değerlendirme kapsamı hazırlanırken | Değerlendiren ve işlev sahibi | RoE, bulgu, risk ve yönetici özeti | [Değerlendirme yöntemi](../docs/09-degerlendirme/01-guvenlik-degerlendirmesi-ve-test-plani.md) |
 | [09 Final proje teslimleri](09-final-proje-teslimleri.md) | Belgeler bütünleştirilirken | Proje hazırlayan ve gözden geçiren | Yirmi üç çıktının alanları, kanıtları ve kabul durumu | [Su tesisi örneği](../labs/05-butunlesik-su-tesisi.md) |
 | [10 BİGR EKS denetimi](10-bigr-eks-denetim-matrisi.md) | Cumhurbaşkanlığı DDO BİGR denetimlerinde | EKS denetçisi ve kurum CISO'su | BİGR EKS 12 tedbirinin kanıtları ve uyum skorlama | [Standartlar ve Türkiye](../docs/05-standartlar-ve-turkiye.md) |
 | [11 IEC 62443 öz değerlendirme](11-iec-62443-oz-degerlendirme.md) | Zone/Conduit güvenlik seviyesi belirlemede | OT siber güvenlik mühendisi ve mimar | 7 Temel Gereksinimde (FR 1-7) SL-T vs SL-A fark analizi | [Standartlar ve Türkiye](../docs/05-standartlar-ve-turkiye.md) |
+| [12 OT RBAC ve UMC tasarımı](12-ot-rbac-ve-umc-tasarim-sablonu.md) | Kimlik yönetimi, RBAC ve SIMATIC UMC mühendisliğinde | OT sistem mühendisi ve kimlik mimarı | AD $\to$ UMC $\to$ PLC/HMI yetki matrisi, break-glass ve audit | [Zero Trust ve RBAC](../docs/08-mimari-ve-erisim/01-zero-trust-rbac-ve-pam.md), [Siemens UMC](../docs/10-araclar-ve-maliyet/02-siemens-ve-merkezi-kullanici-yonetimi.md) |
 
 Sıra zorunlu değildir. Yine de envanter ve akış şablonu doldurulmadan tehdit modeli, algılama kartı ve erişim kaydı çoğunlukla eksik kalır; hepsi aynı varlık ve akış kimliklerine atıf yapar.
 

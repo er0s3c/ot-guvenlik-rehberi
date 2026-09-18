@@ -92,7 +92,7 @@ Başlangıç programı: [sekiz haftalık öğrenme yolu](docs/00-ogrenme-yolu.md
 - [Ticari ve açık kaynak araçların işlev/lisans karşılaştırması](docs/10-araclar-ve-maliyet/01-arac-ve-urun-karsilastirmasi.md)
 - [Siemens güvenliği ve UMC merkezi kullanıcı yönetimi](docs/10-araclar-ve-maliyet/02-siemens-ve-merkezi-kullanici-yonetimi.md)
 - [Budget, Professional ve Enterprise maliyet modelleri](docs/10-araclar-ve-maliyet/03-maliyet-ve-secim-modeli.md)
-- [Ders ve değerlendirme formu](templates/07-ders-ve-degerlendirme.md), [risk/değerlendirme kaydı](templates/08-degerlendirme-ve-risk-kaydi.md), [23 final teslimi](templates/09-final-proje-teslimleri.md)
+- [Çalışma şablonları](templates/README.md): [OT RBAC ve UMC tasarımı](templates/12-ot-rbac-ve-umc-tasarim-sablonu.md), [BİGR EKS matrisi](templates/10-bigr-eks-denetim-matrisi.md), [IEC 62443 öz değerlendirme](templates/11-iec-62443-oz-degerlendirme.md), [ders/değerlendirme](templates/07-ders-ve-degerlendirme.md), [risk kaydı](templates/08-degerlendirme-ve-risk-kaydi.md), [final teslimleri](templates/09-final-proje-teslimleri.md)
 
 ## İçeriğin sınırları ve kullanımı
 

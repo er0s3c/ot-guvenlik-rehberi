@@ -50,6 +50,19 @@ Hücreler yalnız belirtilen işlemleri kapsar. **Yok**, bu senaryoda izin veril
 
 Bu tablo üreticinin yerleşik rol adlarını temsil etmez. Bir uygulamada "administrator" hesabının geniş teknik yetkileri bulunabilir; tabloda belirtilen görev ayrımı o üründe uygulanamıyorsa bu açık yazılır ve aracı, çift onay, kayıt veya ayrı hesapla telafi edilir. [NIST SP 800-82r3, §6.2.1 ve Ek F, AC-6](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf)
 
+## Endüstriyel platformlarda RBAC uygulamaları
+
+OT sistemlerinde RBAC yalnızca dosya veya menü gizleme değildir; doğrudan kontrolör komutlarına, I/O zorlamaya (force), firmware yüklemeye ve emniyet parametrelerine bağlanır.
+
+| Platform / Standart | RBAC Mekanizması | Kimlik Doğrulama Kaynağı | Tanımlanan Temel İzin ve Roller | Emniyet ve Kritik İşlem Denetimi |
+|---|---|---|---|---|
+| **Siemens SIMATIC (UMAC & UMC)** | Proje bazlı UMAC ve merkezi SIMATIC UMC bileşeni | Yerel veritabanı veya Active Directory / LDAP (SADS) | *Engineering, Safety Program, Hardware Config, HMI Download, Diagnostics* | S7-1500 (FW 4.0+) CPU seviyesinde merkezi oturum açma (`Logon of Central Users`) ve yerel rol eşleme |
+| **Rockwell Automation (FTSEC)** | FactoryTalk Security (Action-Based Security) | Windows Active Directory veya FactoryTalk Local Directory | *Tag Write, Online Edit, Firmware Flash, Logic Download, Recipe Management* | *Safety Engineer* rolü zorunluluğu; Deny-over-Allow önceliği ve AssetCentre audit entegrasyonu |
+| **Schneider Electric (CAE & Control Expert)** | Cybersecurity Admin Expert & Security Editor | Merkezi LDAP/AD veya yerel şifreli profil | *Full Control, Program Modification, Data Modification, Monitoring* | Modicon M580/M340 PACSec ve EIFE modüllerine merkezi güvenlik profili dağıtımı |
+| **ABB (System 800xA)** | Aspect Directory Security & Role Definitions | Windows Domain Kullanıcı ve Güvenlik Grupları | *Operator, Senior Operator, Application Engineer, System Engineer* | Proses Alanı (Area/Unit) ve Tesis Hiyerarşisi (Plant Structure) bazında kumanda sınırlandırması |
+| **Emerson (DeltaV)** | Workstation/Area Security Administration | Windows Active Directory & DeltaV User Accounts | *Can Operate, Can Tune, Can Configure, Can Download, Master Security* | 21 CFR Part 11 uyumlu elektronik imza ve kritik setpoint değişikliklerinde çift onay (Four-Eyes) |
+| **OPC UA (Part 18 - Role-Based Security)** | Adres Uzayı (AddressSpace) NodeId RolePermissions | X.509 İstemci Sertifikası, Kullanıcı Adı/Parola veya JWT Token | *Anonymous, AuthenticatedUser, Observer, Operator, Engineer, Supervisor, ConfigureAdmin* | Her NodeId için bit maskesiyle denetlenen `Read`, `Write`, `Browse`, `Call`, `WriteRolePermissions` hakları |
+
 ## PAM ayrıcalığı nasıl yönetir?
 
 PAM, ayrıcalıklı hesapların, kimlik sırlarının ve yönetim oturumlarının yaşam döngüsünü yönetmek için kullanılan süreç ve yetenekler bütünüdür. Aşağıdaki tasarım ayrımı özgün eğitim sentezidir; bir ürünün tüm yetenekleri içerdiği varsayılmaz.
