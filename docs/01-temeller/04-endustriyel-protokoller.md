@@ -2,6 +2,12 @@
 
 Protokol, iki sistemin veri ve işlevleri hangi kurallarla paylaştığını belirler. Güvenlik değerlendirmesinde adını veya portunu bilmekten daha önemli sorular vardır: Uçlar birbirini tanıyor mu, kullanıcı neye yetkili, veri güncel mi, değişiklik kayıt altına alınıyor mu?
 
+Bu sayfa başlangıç çerçevesidir. Ayrıntılı okuma ve belge alıştırmaları:
+
+- [On dört protokol ailesinin kataloğu](../07-protokoller/01-protokol-katalogu.md): taşıma/port ayrımı, güvenlik profilleri ve envanter incelemesi.
+- [Modbus ve OPC UA güvenliği](../07-protokoller/02-modbus-ve-opc-ua-guvenligi.md): function code, SecureChannel, sertifika ve yetki denetimleri.
+- [Trafik analizi ve protokol seçimi](../07-protokoller/03-trafik-analizi-ve-protokol-secimi.md): çevrimdışı filtreler, sentetik normal trafik profili ve dört seçim karşılaştırması.
+
 ## Başlıca aileler
 
 | Aile | Tipik işlev | Güvenlik değerlendirmesi |
@@ -15,7 +21,7 @@ Protokol, iki sistemin veri ve işlevleri hangi kurallarla paylaştığını bel
 | PROFINET / EtherNet/IP | Endüstriyel Ethernet üzerinde otomasyon | Gerçek zaman davranışı, cihaz profili, mühendislik ve veri trafiği ayrılır |
 | Üreticiye özgü protokoller | Programlama, tanılama, cihaz yönetimi | Kamuya açık genel bilgi yetersizse üretici belgesi ve onaylı yapılandırma esas alınır |
 
-Tablo bir tanıma haritasıdır. DNP3 ve enerji protokollerinin kaynaklı ayrıntıları [elektrik bölümünde](../02-sektorler/02-elektrik-ve-enerji.md) yer alır. Diğer satırlar genel teknik çerçevedir; belirli bir üründe özellik bulunduğu veya etkin olduğu iddiası değildir.
+Tablo bir tanıma haritasıdır. DNP3 ve enerji protokollerinin sektör bağlamı [elektrik bölümünde](../02-sektorler/02-elektrik-ve-enerji.md), bütün ailelerin teknik kaynakları [protokol kataloğunda](../07-protokoller/01-protokol-katalogu.md) yer alır. Doğrudan seri hat veya Ethernet L2 düzeyinde taşınan iletiler TCP/UDP portuyla tanımlanmaz; IEC 61850 ve PROFINET gibi aileler tek porta indirgenmez. Bir ürünün aileyi desteklemesi, güvenli profilin desteklendiği veya etkin olduğu iddiası değildir.
 
 ## Modbus: klasik protokol ile güvenli profil ayrımı
 
@@ -25,7 +31,7 @@ Modbus Organization, Modbus Security'yi TLS ve X.509 sertifikalarıyla gelenekse
 
 ## OPC UA: özellik bulunması ile doğru kurulum farklıdır
 
-OPC UA güvenlik modeli `None`, `Sign` ve `SignAndEncrypt` modlarını; uygulama kimlik doğrulamasını ve kullanıcı kimliğini ayrı ele alır. Güven listeleri ve sertifika doğrulaması uygulama güveninin parçasıdır. `None` güvenlik sağlamaz. [OPC UA Part 2, bölüm 4](https://reference.opcfoundation.org/specs/OPC-10000-2/4)
+OPC UA güvenlik modeli `None`, `Sign` ve `SignAndEncrypt` modlarını; uygulama kimlik doğrulamasını ve kullanıcı kimliğini ayrı ele alır. Güven listeleri ve sertifika doğrulaması uygulama güveninin parçasıdır. `None`, UA mesajlarının imzalanmasını veya şifrelenmesini sağlamaz. [OPC UA Part 2, bölüm 4](https://reference.opcfoundation.org/specs/OPC-10000-2/4)
 
 Örnek kabul incelemesi: onaylanmayan istemci reddediliyor mu, gözlemci kullanıcı değişiklik yapamıyor mu, süresi dolan veya iptal edilen sertifikaya ilişkin davranış biliniyor mu? Bu denemeler üretimde doğaçlama uygulanmaz; ürünle uyumlu test ortamında ve tanımlanmış kabul planında yapılır. Sertifika yenileme süreci, gece vardiyasının bilmediği ani bir hizmet kesintisine dönüşmemelidir.
 
@@ -54,4 +60,4 @@ Port numaraları hedef keşfi için bir liste olarak kullanılmaz. Aynı portta 
 - OPC Foundation, *OPC UA Part 2: Security Model*, v1.05.06 görüntülenen sürüm, [bölüm 4](https://reference.opcfoundation.org/specs/OPC-10000-2/4); modlar ve güven yönetimi.
 - OASIS, *MQTT Version 5.0*, 7 Mart 2019, [standart](https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html); bölüm 5 güvenlik çerçevesi.
 
-Erişim: 13.09.2026. Kabul kartları ve örnek sorular bu deponun özgün önerileridir.
+İlk kaynak incelemesi: 13.09.2026. Ayrıntılı protokol genişletmesi ve ek kaynak kontrolü: 16.09.2026; [araştırma kaydı](../../research/protokol-kaynaklar.md). Kabul kartları ve örnek sorular bu deponun özgün önerileridir.

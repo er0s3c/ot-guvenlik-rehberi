@@ -1,0 +1,221 @@
+{
+  "name": "OT Guvenligi Rehberi - Sektorel Tehdit ve Savunma Matrisi",
+  "versions": {
+    "attack": "14",
+    "navigator": "4.9.5",
+    "layer": "4.5"
+  },
+  "domain": "ics-attack",
+  "description": "OT Guvenligi Rehberi kapsamindaki 62 sektorel tehdit ve savunma senaryosunun (Su, Enerji, Rayli Sistemler, Telekom, Petrol/Kimya) MITRE ATT&CK for ICS teknikleri ile eslestirilmis renkli isi haritasi katmanidir.",
+  "gradient": {
+    "colors": [
+      "#ffffff",
+      "#ffe0b2",
+      "#ff9800",
+      "#e65100",
+      "#b71c1c"
+    ],
+    "minValue": 0,
+    "maxValue": 15
+  },
+  "legendItems": [
+    {
+      "color": "#ffe0b2",
+      "label": "1-3 Senaryo (Dusuk Yogunluk)"
+    },
+    {
+      "color": "#ff9800",
+      "label": "4-7 Senaryo (Orta Yogunluk)"
+    },
+    {
+      "color": "#e65100",
+      "label": "8-11 Senaryo (Yuksek Yogunluk)"
+    },
+    {
+      "color": "#b71c1c",
+      "label": "12+ Senaryo (Kritik Surec Manipulasyonu)"
+    }
+  ],
+  "techniques": [
+    {
+      "techniqueID": "T0822",
+      "score": 14,
+      "comment": "External Remote Services: VPN, PAM, hucresel erisim gecitleri uzerinden saha erisimi (Su, Enerji, Telekom, Proses senaryolarinda birincil giris noktasi).",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0859",
+      "score": 12,
+      "comment": "Valid Accounts: Ele gecirilmis tedarikci, muhendislik veya operator hesaplarinin kotuye kullanilmasi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0864",
+      "score": 8,
+      "comment": "Transient Cyber Asset: Sahada kullanilan servis dizustu bilgisayarlari ve programlama cihazlari uzerinden yayilim.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0886",
+      "score": 10,
+      "comment": "Remote Services: Purdue L2/L3 arasi SSH, RDP, VNC ve web arayuzleri uzerinden yetkisiz erisim.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0836",
+      "score": 11,
+      "comment": "Modify Parameter: Setpoint degisikligi, PID katsayilari, vana kapanma rampa sureleri, basinc limitleri tahrifati.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0855",
+      "score": 15,
+      "comment": "Unauthorized Command Message: Modbus FC16, DNP3 Direct Operate, IEC 104 Single/Double Command, GOOSE Trip mesaj enjeksiyonu.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0839",
+      "score": 13,
+      "comment": "Module Firmware: PLC, RTU, IED ve ag gecidi firmware tahrifati, guvenlik blokajlarinin kaldirilmasi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0843",
+      "score": 12,
+      "comment": "Program Download: Safety PLC, BPCS ve Anklasman sistemlerine kotucul ladder/bytecode yuklenmesi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0858",
+      "score": 9,
+      "comment": "Change Operating Mode: PLC RUN modundan PROGRAM/STOP moduna gecirilmesi, guvenli modun kapatilmasi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0838",
+      "score": 10,
+      "comment": "Modify Alarm Settings: Operator ekraninda alarm esiklerinin yukseltilmesi veya alarmlarin susturulmasi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0878",
+      "score": 12,
+      "comment": "Alarm Suppression: Gaz/yangin, asiri sicaklik ve kritik seviye alarmlarinin yazilimsal olarak bloke edilmesi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0881",
+      "score": 8,
+      "comment": "Service Stop: HVAC/CRAC, sogutma blowerlari veya yangin pompasi servislerinin durdurulmasi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0806",
+      "score": 11,
+      "comment": "Brute Force I/O: PLC bellek alaninda I/O force uygulanarak sensor verilerinin sabitlenmesi (Freezing).",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0831",
+      "score": 15,
+      "comment": "Manipulation of Control: Pompa kuru calistirma, kesici avlanmasi (thrashing), makas yarim birakma, reaktor isitma.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0880",
+      "score": 14,
+      "comment": "Loss of Safety: SIL 3 ESD / HIPPS lojik bloklarinin baypas edilmesi, mekanik guvenlik interlocklarinin ezilmesi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0879",
+      "score": 15,
+      "comment": "Damage to Property: Pompa motoru yanmasi, trafo patlamasi, su koku (water hammer), tren deraymani, boru yirtilmasi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0828",
+      "score": 13,
+      "comment": "Loss of Control: Dis merkezden veya yerel operatorden kontrol yetkisinin tamamen alinmasi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0829",
+      "score": 14,
+      "comment": "Loss of View: Operator ekranlarinda donmus veri gosterilmesi, telemetri baglantilarinin koparilmasi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0815",
+      "score": 12,
+      "comment": "Denial of View: SCADA sunucularina DoS veya veri tabani tahrifati ile durum gorusunun engellenmesi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0826",
+      "score": 13,
+      "comment": "Loss of Availability: Enerji, su temini, telekom servisi veya metro seferlerinin kitlesel durdurulmasi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0814",
+      "score": 10,
+      "comment": "Denial of Control: Operator kumanda komutlarinin ag anahtarinda veya PLC seviyesinde engellenmesi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0813",
+      "score": 7,
+      "comment": "Data Destruction: Historian gecmis proses loglarinin, olay kayitlarinin (COMTRADE) silinmesi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0803",
+      "score": 9,
+      "comment": "Block Command Message: Guvenli durus (Trip) veya acil tahliye komutlarinin sahaya iletilmesinin engellenmesi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0804",
+      "score": 8,
+      "comment": "Block Reporting Message: Saha IED veya RTU telemetri alarmlarinin kontrol merkezine ulasmasinin bloklanmasi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0856",
+      "score": 11,
+      "comment": "Spoof Reporting Message: Sahte klor, frekans, ray devresi veya gaz konsantrasyonu raporlanmasi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0849",
+      "score": 9,
+      "comment": "Masquerade: Guvenilir bir muhendislik yazilimi veya IED kimligine burunerek komut gonderilmesi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0845",
+      "score": 7,
+      "comment": "Program Organization Unit: PLC icinde gizli fonksiyon bloklari ve zaman ayarli mantik bombalari olusturulmasi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0857",
+      "score": 8,
+      "comment": "System Firmware: Sahadaki RTU, ag anahtari veya koruma rolesi isletim sistemine rootkit yerlestirilmesi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0840",
+      "score": 10,
+      "comment": "Network Connection Enumeration: Purdue L1/L2 veriyolu uzerindeki Modbus, DNP3, IEC 61850 cihazlarinin taranmasi.",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T0842",
+      "score": 9,
+      "comment": "Point & Tag Identification: SCADA tag listesi, register eslemeleri ve hafiza adreslerinin kesfedilmesi.",
+      "enabled": true
+    }
+  ]
+}

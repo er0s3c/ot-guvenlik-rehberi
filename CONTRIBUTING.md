@@ -13,6 +13,8 @@ Katkı vermeden önce [ana sayfayı](README.md), [araştırma yöntemini](resear
 | Çeviri terimi | Sözlükte karşılığı eksik veya tartışmalı bir terim | Terimi kullanan resmî veya standart kaynak; yoksa gerekçe notu |
 | Yeni sektör bölümü | Mevcut dört sektörün dışında bir alan | Kaynak tablosu, güven sınırı çözümlemesi, tehdit modeli tablosu, kontrol listesi |
 | Laboratuvar | Yeni çevrimdışı alıştırma ve çözüm anahtarı | Sentetik veri, öğrenme hedefi, değerlendirme ölçütü |
+| Teknik başvuru | Protokol karşılaştırması, sembolik kural matrisi, çevrimdışı kayıt filtresi | Birincil teknik belge, sürüm/kapsam ve beklenen inceleme sonucu |
+| Ürün ve maliyet incelemesi | İşlev, dağıtım, lisans ve toplam maliyet karşılaştırması | Üretici kaynağı, inceleme tarihi; teklif ile örnek hesabın ayrılması |
 | Yapısal iyileştirme | Gezinme, tutarlılık, denetim betiği, şablon alanı | Değişikliğin etkilediği dosyaların listesi |
 
 Küçük düzeltmeler için doğrudan değişiklik önerilebilir. Yeni bölüm, yeni laboratuvar veya yapısal değişiklik gibi geniş katkılarda önce konu açmak kapsam tartışmasını kolaylaştırır.
@@ -41,10 +43,14 @@ Araştırma notlarında ayrıca hangi bölümün okunduğu ve hangi iddianın bi
 Aşağıdakiler kabul edilmez:
 
 - Gerçek tesis verisi: kurum veya saha adı, adres, koordinat, IP adresi, ağ şeması, kontrol projesi, koruma ayarı, alarm eşiği, hesap bilgisi, ekran görüntüsü.
-- Çalıştırılabilir saldırı adımı, istismar kodu, yük (payload), tarama veya keşif komutu, araç kullanım prosedürü, cihaz sorgulama talimatı.
+- Çalıştırılabilir saldırı adımı, istismar kodu, yük (payload), hedef tarama/keşif komutu, gerçek cihaza sorgu veya yazma talimatı; süreç ve emniyet işlevlerini değiştiren prosedür.
 - Belirli bir ürün zafiyetinin istismar yolu veya "şu sürümde şu komutla" biçiminde ayrıntı.
 - Doğrulanmamış olay atfı, isim vererek suçlama, kaynağı olmayan istatistik.
-- Ürün tavsiyesi, pazarlama dili ve hizmet reklamı.
+- Kaynaksız ürün üstünlüğü veya satın alma tavsiyesi, pazarlama dili ve hizmet reklamı.
+
+Bu depo Markdown bilgi deposudur. Sanal makine, servis, güvenlik ürünü veya fiziksel sistem kurmak deponun tamamlanma koşulu değildir. Kavramsal laboratuvar topolojileri, kurgusal adres/rol/akış tabloları, savunma amaçlı sözde kod ve eldeki çevrimdışı kayıtları okumaya yarayan filtreler teknik anlatımın parçası olabilir. Bir örneğin uygulanmış veya test edilmiş olduğu, yalnızca gerçek doğrulama kanıtı varsa yazılır; masa başı sonuçlar açıkça kurgusal olarak işaretlenir.
+
+Tarafsız ürün karşılaştırması, ürün ailesinin her modelde aynı özelliği taşıdığı anlamına gelmez. Model, sürüm, lisans, dağıtım ve kaynak tarihi ayrı yazılır. Kamuya açık fiyat bulunamadığında "teklif gerekli" denir; eğitim için kullanılan örnek bütçe piyasa fiyatı olarak sunulmaz. Ücretsiz lisans, sıfır işletme maliyeti olarak yorumlanmaz.
 
 Saldırgan bakış açısı içeren katkılar tehdit modelleme düzeyinde kalır. Kullanılan tablo aşağıdaki örnek düzendedir. Sütun adları bölümden bölüme kısalabilir; değişmeyen şey bu altı bilginin her satırda bulunmasıdır:
 
@@ -104,7 +110,7 @@ Betiğin güncel denetim kapsamı `scripts/check_docs.py` dosyasının kendi aç
 - [ ] Kaynak birincil; yayın tarihi ile erişim tarihi ayrı yazılmış.
 - [ ] Taslak/nihai durumu ve sürüm bilgisi doğru.
 - [ ] Göreli bağlantıların hedefi var; denetim betiği hatasız çalışıyor.
-- [ ] Gerçek tesis verisi, komut, tarama adımı veya istismar ayrıntısı yok.
+- [ ] Gerçek tesis verisi, hedefe işlem yapan komut, tarama adımı veya istismar ayrıntısı yok; belgesel örneklerin kapsamı açık.
 - [ ] Saldırı içeriği tehdit modelleme düzeyinde; örnekler kurgusal olarak işaretlenmiş.
 - [ ] Mutlak ifade, pazarlama dili ve kaynaksız sayı yok; belirsizlikler açıkça yazılmış.
 - [ ] Başlık, tablo, kontrol listesi ve dosya adlandırma kurallara uygun.

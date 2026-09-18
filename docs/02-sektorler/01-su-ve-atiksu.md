@@ -1,6 +1,6 @@
 # Su ve atıksu sistemlerinde OT güvenliği
 
-[Ana sayfa](../../README.md) · [Elektrik ve enerji](02-elektrik-ve-enerji.md) · [Kaynak araştırma notları](../../research/su-elektrik-kaynaklar.md)
+[Ana sayfa](../../README.md) · [Elektrik ve enerji](02-elektrik-ve-enerji.md) · [15 Ayrıntılı Saldırgan ve Savunma Senaryosu](senaryolar/01-su-ve-atiksu-senaryolari.md) · [Kaynak araştırma notları](../../research/su-elektrik-kaynaklar.md)
 
 Bu bölüm, içme suyu üretimi, dağıtımı ve atıksu arıtmasını ilk kez öğrenen okur içindir. Amaç; bir bilgisayar olayının su hizmetine hangi bağımlılıklar üzerinden yansıyabileceğini anlamak ve savunmayı mühendislikle birlikte tasarlamaktır. Buradaki mimari, tehdit matrisi ve tatbikat özgün eğitim örnekleridir; gerçek bir tesisin projesini temsil etmez.
 
@@ -67,6 +67,8 @@ Sertifikanın varlığını güvenli kurulumun kanıtı saymayın. Örneğin OPC
 | Geri dönüşü geciktirmek | Yedek veya mühendislik dosyaları korunmuyor | İşletim sistemi → kurtarma kaynağı | Onarımın uzaması, kısıtlı işletimin sürmesi | Yedek sürümüyle cihaz sürümünün uyuşmaması | Çevrimdışı kopya; proje bağımlılıkları; izole ortamda geri yükleme denemesi |
 
 EPA'nın sektör kontrol listesi, su hizmetindeki proses kesintisi ile müşteri verisi ihlalini ayrı etki türleri olarak ele alır. Böylece yalnızca faturalama sistemindeki olaydan su kalitesinin bozulduğu sonucu çıkarılmaz. [EPA, *Incident Action Checklist – Cybersecurity*, s. 1](https://www.epa.gov/system/files/documents/2024-09/240909_cybersecurityiac_fillable_508c.pdf)
+
+> Kuru çalışma, su koçu (water hammer), klor dozaj manipülasyonu, çözünmüş oksijen sahteciliği ve çamur çürütücü metan patlama riskleri dahil 15 ayrıntılı saldırgan ve çok katmanlı savunma senaryosu için [Su ve Atıksu Senaryoları Kataloğu](senaryolar/01-su-ve-atiksu-senaryolari.md) belgesini inceleyin.
 
 ## 5. Öncelikli savunma: kanıt üreten küçük işler
 

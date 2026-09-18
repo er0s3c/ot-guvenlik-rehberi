@@ -363,7 +363,7 @@ Aşağıdaki çiftler, benzer göründüğü için birbirinin yerine kullanılan
 ## İlgili bölümler
 
 - Temel kavramlar: [OT nedir?](01-temeller/01-ot-nedir.md), [kontrol döngüsü](01-temeller/02-kontrol-dongusu-ve-bilesenler.md), [mimari ve güven bölgeleri](01-temeller/03-mimari-ve-guven-bolgeleri.md), [protokoller](01-temeller/04-endustriyel-protokoller.md), [risk ve emniyet](01-temeller/05-risk-emniyet-ve-bagimliliklar.md)
-- Sektörler: [su ve atıksu](02-sektorler/01-su-ve-atiksu.md), [elektrik ve enerji](02-sektorler/02-elektrik-ve-enerji.md), [raylı sistemler](02-sektorler/03-rayli-sistemler.md), [telekom](02-sektorler/04-telekom-ve-baz-istasyonlari.md), [karşılaştırma](02-sektorler/05-sektor-karsilastirmasi.md)
+- Sektörler: [su ve atıksu](02-sektorler/01-su-ve-atiksu.md), [elektrik ve enerji](02-sektorler/02-elektrik-ve-enerji.md), [raylı sistemler](02-sektorler/03-rayli-sistemler.md), [telekom](02-sektorler/04-telekom-ve-baz-istasyonlari.md), [petrol ve kimya](02-sektorler/05-petrol-gaz-ve-kimya.md), [karşılaştırma](02-sektorler/05-sektor-karsilastirmasi.md), [sektörel senaryolar (62 senaryo)](02-sektorler/senaryolar/README.md)
 - Tehdit modelleme: [saldırgan bakış açısı](03-tehdit-modelleme/01-saldirgan-bakis-acisi.md), [MITRE ATT&CK for ICS](03-tehdit-modelleme/02-mitre-attack-ics.md)
 - Savunma: [envanter](04-savunma/01-envanter-ve-gorunurluk.md), [segmentasyon ve uzak erişim](04-savunma/02-segmentasyon-ve-uzak-erisim.md), [izleme ve algılama](04-savunma/03-izleme-ve-algilama.md), [zafiyet ve değişiklik](04-savunma/04-zafiyet-ve-degisiklik-yonetimi.md), [olay ve kurtarma](04-savunma/05-olay-mudahalesi-ve-kurtarma.md)
 - Standart ve mevzuat çerçevesi: [standartlar ve Türkiye](05-standartlar-ve-turkiye.md)

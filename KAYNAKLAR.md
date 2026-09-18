@@ -87,6 +87,8 @@ Katalog dışında tutulanlar: [LICENSE.md](LICENSE.md) dosyasındaki lisans met
 | BSI, [PD CLC/TS 50701:2023, Railway applications. Cybersecurity](https://knowledge.bsigroup.com/products/railway-applications-cybersecurity-1) | 31 Ağustos 2023; katalogda durum "current" | [standartlar](docs/05-standartlar-ve-turkiye.md) · [raylı ve telekom araştırma kaydı](research/rayli-telekom-kaynaklar.md) | Ücretli; CENELEC katalog sayfası açılamadığı için ulusal üye kuruluş kaydı kullanıldı |
 | NEN, [NVN-CLC/TS 50701:2023](https://www.nen.nl/en/nvn-clc-ts-50701-2023-en-314480) | 1 Eylül 2023 | [raylı sistemler](docs/02-sektorler/03-rayli-sistemler.md) | Ücretli; katalogdaki sürüm ve ikame kaydı kullanıldı, tam metin incelenmedi |
 | OASIS, [MQTT Version 5.0](https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html) | 7 Mart 2019 | [endüstriyel protokoller](docs/01-temeller/04-endustriyel-protokoller.md) | Bölüm 5 güvenlik çerçevesi; ürün davranışı iddiası taşımaz |
+| API, [API Standard 1164: Pipeline Control Systems Cybersecurity](https://www.api.org/oil-and-natural-gas/health-and-safety/cybersecurity) | Ağustos 2021, 3rd Ed. | [petrol ve kimya](docs/02-sektorler/05-petrol-gaz-ve-kimya.md) | SCADA ve boru hattı kontrol sistemleri siber güvenlik çerçevesi |
+| API, [API Standard 520: Sizing, Selection, and Installation of Pressure-relieving Devices](https://www.api.org/standards) | Ekim 2020, 10th Ed. | [petrol ve kimya](docs/02-sektorler/05-petrol-gaz-ve-kimya.md) | Basınç emniyet ventilleri mekanik tasarım ve boyutlandırma kuralları |
 
 ## Avrupa kurumları
 

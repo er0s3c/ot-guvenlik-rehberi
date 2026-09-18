@@ -1,6 +1,6 @@
 # Elektrik ve enerji sistemlerinde OT güvenliği
 
-[Ana sayfa](../../README.md) · [Su ve atıksu](01-su-ve-atiksu.md) · [Kaynak araştırma notları](../../research/su-elektrik-kaynaklar.md)
+[Ana sayfa](../../README.md) · [Su ve atıksu](01-su-ve-atiksu.md) · [15 Ayrıntılı Saldırgan ve Savunma Senaryosu](senaryolar/02-elektrik-enerji-senaryolari.md) · [Kaynak araştırma notları](../../research/su-elektrik-kaynaklar.md)
 
 Elektrik OT'sini öğrenirken enerji akışı ile bu akışı izleyen ve yöneten haberleşmeyi ayrı çizmek gerekir. Bir sunucunun çalışması, şebekenin doğru gözlendiğini veya koruma işlevinin sağlam olduğunu tek başına kanıtlamaz. Bu bölüm elektrik üretimi, iletim, dağıtım ve dağıtık enerji kaynaklarına odaklanır; petrol/doğal gaz boru hatları ve nükleer tesislere özgü tasarım ayrıntıları kapsam dışıdır.
 
@@ -67,6 +67,8 @@ IEC 62351 ailesi ilgili enerji protokolleri için güvenlik teknolojileri yanın
 | Olay sırasını belirsizleştirmek | Zaman kaynağı veya günlük bütünlüğü bozulmuş | Zaman/kayıt hizmeti → olay analizi | Arıza nedeninin yanlış yorumlanması; geri dönüşün gecikmesi | Cihazlar arasında saat farkı, tutarsız olay sırası | Zaman kalite izlemesi; kayıt kaynağını koruma; belirsizlik aralığı yazma |
 | DER filosundaki ortak yetkiyi istismar etmek | Toplayıcı hizmette aşırı geniş veya ele geçirilmiş yetki | Dış işletmeci → çoklu saha | Birden fazla bağlantı noktasında işletim sorunu | Aynı kimlikle olağandışı toplu değişiklik | Saha/grup bazında yetki; onay kapsamı; ortak arıza analizi |
 | Kurtarma malzemesini güvenilmez kılmak | Ayar/proje arşivi doğrulanmıyor | Arşiv → sahaya geri yükleme | Uzayan kesinti veya yeniden doğrulama ihtiyacı | Dosya bütünlüğü ve sürüm uyuşmazlığı | Bağımsız kopya; tedarik kökeni; mühendislik kabul testi |
+
+> Kesici avlanması (thrashing), jeneratör faz dışı senkronizasyonu, IEC 61850 GOOSE trip enjeksiyonu, LTC voltaj manipülasyonu ve BESS termal kaçak riskleri dahil 15 ayrıntılı saldırgan ve çok katmanlı savunma senaryosu için [Elektrik ve Enerji Senaryoları Kataloğu](senaryolar/02-elektrik-enerji-senaryolari.md) belgesini inceleyin.
 
 ## 5. Öncelikli kontroller
 

@@ -1,6 +1,6 @@
 # Raylı sistemlerde OT ve siber güvenlik
 
-[Ana sayfa](../../README.md) · [Telekom ve baz istasyonları](04-telekom-ve-baz-istasyonlari.md)
+[Ana sayfa](../../README.md) · [Telekom ve baz istasyonları](04-telekom-ve-baz-istasyonlari.md) · [12 Ayrıntılı Saldırgan ve Savunma Senaryosu](senaryolar/03-rayli-sistemler-senaryolari.md)
 
 > Araştırma tarihi: **13.09.2026**. Bu bölüm eğitim ve yetkili savunma planlaması içindir. Mimari ve senaryolar kurgusaldır; bir işletmenin hat planını veya işletme talimatını temsil etmez.
 
@@ -75,6 +75,8 @@ Aşağıdaki matris bu eğitim deposunun özgün analizidir; doğrulanmış olay
 | Enerji/tesis görünürlüğünü kaybettirmek | Yardımcı yönetim hesabının kötüye kullanımı | Uzaktan yönetim → saha izlemesi | Enerji veya çevresel sorunun geç fark edilmesi | Donmuş ölçüm, eksik alarm, saha teyidi farkı | Yerel koruma, bağımsız alarm ve saha doğrulaması |
 
 Hizmet kaybı ve emniyet tehlikesi ayrı değerlendirilmelidir. Bir göstergenin yanıltılması, koruma işlevlerinin aşıldığını kanıtlamaz; koruma işlevinin durumu da incelenmelidir. ENISA'nın risk rehberi yöntemlerin kuruluşun bağlamına uyarlanmasını ele alır. [ENISA: Railway Cybersecurity — Good Practices](https://www.enisa.europa.eu/publications/railway-cybersecurity-good-practices-in-cyber-risk-management)
+
+> Dingil sayıcı sahte reset, makas son konum dondurma, ETCS baliz replay, CBTC telsiz jam/DoS ve hemzemin geçit manipülasyonu dahil 12 ayrıntılı saldırgan ve çok katmanlı savunma senaryosu için [Raylı Sistemler Senaryoları Kataloğu](senaryolar/03-rayli-sistemler-senaryolari.md) belgesini inceleyin.
 
 ## 5. Savunmada öncelik sırası
 

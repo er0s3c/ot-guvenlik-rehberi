@@ -2,7 +2,7 @@
 
 [Ana sayfa](../README.md) · [Varlık envanteri ve görünürlük](../docs/04-savunma/01-envanter-ve-gorunurluk.md) · [Çevrimdışı laboratuvarlar](../labs/README.md)
 
-Bu dizindeki altı şablon, rehberdeki bölümlerin çıktısını yazılı bir kayda dönüştürmek içindir. Şablonlar boş formdur. İçlerindeki bütün örnek değerler kurgusaldır ve yalnızca biçimi göstermek için bulunur. Şablonlar bir uygunluk beyanı, tasarım onayı veya denetim raporu yerine geçmez.
+Bu dizindeki dokuz şablon, rehberdeki bölümlerin çıktısını yazılı bir kayda dönüştürmek içindir. İlk altı form işletme kayıtlarına, son üçü ders, değerlendirme ve final proje çalışmalarına yöneliktir. İçlerindeki örnek değerler kurgusaldır; uygunluk beyanı veya yapılmış saha testi yerine geçmez.
 
 ## Nasıl kullanılır
 
@@ -14,7 +14,7 @@ Bu dizindeki altı şablon, rehberdeki bölümlerin çıktısını yazılı bir 
 
 Şablonları gerçek bir tesise dokunmadan denemek için [çevrimdışı laboratuvarlardaki](../labs/README.md) kurgusal veri kullanılabilir.
 
-## Altı şablon
+## Dokuz şablon
 
 | Şablon | Ne zaman kullanılır? | Kim doldurur? | Çıktı neye yarar? | İlgili bölüm |
 |---|---|---|---|---|
@@ -24,6 +24,12 @@ Bu dizindeki altı şablon, rehberdeki bölümlerin çıktısını yazılı bir 
 | [04 Olay ve kurtarma](04-olay-ve-kurtarma.md) | Tatbikat sırasında, olay anında ve olay sonrası değerlendirmede | Olay yöneticisi, vardiya amiri, proses mühendisi | Zaman çizelgesi, karar ve kanıt kaydı; mühendis onaylı geri dönüş kapıları | [Olay müdahalesi ve kurtarma](../docs/04-savunma/05-olay-mudahalesi-ve-kurtarma.md) |
 | [05 Değişiklik ve kabul](05-degisiklik-ve-kabul.md) | Yama, proje/ayar değişikliği, cihaz değişimi ve devreye almada | Değişiklik sahibi, onaylayan ve testi yürüten | Onay, test planı, geri dönüş yolu ve kabul kanıtı | [Zafiyet ve değişiklik yönetimi](../docs/04-savunma/04-zafiyet-ve-degisiklik-yonetimi.md) |
 | [06 Tedarikçi ve uzak erişim](06-tedarikci-ve-uzak-erisim.md) | Tedarikçi sözleşmesinde, yeni uzak erişim yolunda ve dönemsel incelemede | Sözleşme sahibi, güvenlik ekibi ve işletme | Kişi, hedef, süre, kayıt ve iptal koşulu tanımlı erişim kaydı | [Segmentasyon ve uzak erişim](../docs/04-savunma/02-segmentasyon-ve-uzak-erisim.md) |
+
+| [07 Ders ve değerlendirme](07-ders-ve-degerlendirme.md) | Bir konu çalışılırken | Okur ve değerlendirici | Yirmi alan, beş aşamalı teslim ve düzeltme kaydı | [Konu haritası](../docs/11-konu-haritasi.md) |
+| [08 Değerlendirme ve risk](08-degerlendirme-ve-risk-kaydi.md) | Değerlendirme kapsamı hazırlanırken | Değerlendiren ve işlev sahibi | RoE, bulgu, risk ve yönetici özeti | [Değerlendirme yöntemi](../docs/09-degerlendirme/01-guvenlik-degerlendirmesi-ve-test-plani.md) |
+| [09 Final proje teslimleri](09-final-proje-teslimleri.md) | Belgeler bütünleştirilirken | Proje hazırlayan ve gözden geçiren | Yirmi üç çıktının alanları, kanıtları ve kabul durumu | [Su tesisi örneği](../labs/05-butunlesik-su-tesisi.md) |
+| [10 BİGR EKS denetimi](10-bigr-eks-denetim-matrisi.md) | Cumhurbaşkanlığı DDO BİGR denetimlerinde | EKS denetçisi ve kurum CISO'su | BİGR EKS 12 tedbirinin kanıtları ve uyum skorlama | [Standartlar ve Türkiye](../docs/05-standartlar-ve-turkiye.md) |
+| [11 IEC 62443 öz değerlendirme](11-iec-62443-oz-degerlendirme.md) | Zone/Conduit güvenlik seviyesi belirlemede | OT siber güvenlik mühendisi ve mimar | 7 Temel Gereksinimde (FR 1-7) SL-T vs SL-A fark analizi | [Standartlar ve Türkiye](../docs/05-standartlar-ve-turkiye.md) |
 
 Sıra zorunlu değildir. Yine de envanter ve akış şablonu doldurulmadan tehdit modeli, algılama kartı ve erişim kaydı çoğunlukla eksik kalır; hepsi aynı varlık ve akış kimliklerine atıf yapar.
 

@@ -1,6 +1,6 @@
 # Telekom ve baz istasyonlarında OT sınırları
 
-[Ana sayfa](../../README.md) · [Raylı sistemler](03-rayli-sistemler.md)
+[Ana sayfa](../../README.md) · [Raylı sistemler](03-rayli-sistemler.md) · [10 Ayrıntılı Saldırgan ve Savunma Senaryosu](senaryolar/04-telekom-baz-istasyonu-senaryolari.md)
 
 > Araştırma tarihi: **13.09.2026**. İçerik, mimariyi anlamak ve yetkili savunma planlamak içindir. Örneklerde gerçek saha, abone, frekans veya erişim bilgisi kullanılmaz.
 
@@ -73,6 +73,8 @@ Matris özgün ve kurgusal bir savunma çalışmasıdır; belirli operatör veya
 | Yönetim bağımlılığını kullanmak | Tek yönetim ya da sır saklama noktasına bağımlılık | Ortak platform → çoklu iş yükü | Bölgesel hizmet yönetiminin aksaması | Birçok işlevde aynı anda yetki/erişim hatası | Bağımlılık analizi, ayrı kurtarma erişimi |
 
 Şifreli radyo bağlantısının bulunması, OSS hesabının veya soğutma denetleyicisinin güvenli olduğu sonucu vermez. 3GPP TS 33.501; erişim, ağ alanı ve servis tabanlı mimari gibi farklı güvenlik alanlarını ayırır. Bu ayrım, tek güvenlik özelliğiyle bütün sistem için güvence verilmemesi gerektiğini gösterir. [3GPP TS 33.501, ETSI V18.10.0, bölüm 4](https://www.etsi.org/deliver/etsi_ts/133500_133599/133501/18.10.00_60/ts_133501v181000p.pdf)
+
+> Hassas klima (CRAC/HVAC) sabotajı, DC güç doğrultucu aşırı voltajı, akü yönetim sistemi telemetri körleştirmesi, PTP/SyncE zaman kaydırma ve kule ikaz ışığı karartması dahil 10 ayrıntılı saldırgan ve çok katmanlı savunma senaryosu için [Telekomünikasyon ve Baz İstasyonu Senaryoları Kataloğu](senaryolar/04-telekom-baz-istasyonu-senaryolari.md) belgesini inceleyin.
 
 ## 5. Savunma öncelikleri
 

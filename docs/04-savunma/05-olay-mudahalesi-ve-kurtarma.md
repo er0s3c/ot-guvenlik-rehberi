@@ -51,6 +51,15 @@ Aşağıdaki paket bu deponun özgün önerisidir:
 
 Kopyanın çevrimdışı veya değiştirilemez olması değerli olabilir; bu kopyaya erişebilecek yetki ve gerekli araçlar olay sırasında bulunamıyorsa kurtarma yine başarısız olur. Yedek üzerinde bir bütünlük özeti olması, içeriğin olaydan önce zaten bozulmadığını tek başına kanıtlamaz.
 
+## Operasyonel müdahale playbook'ları (Runbooks)
+
+OT olay anında saniye saniye takip edilecek detaylı operasyonel kılavuzlar için [OT Olay Müdahale Playbook Koleksiyonu](playbooks/README.md) belgesini inceleyin:
+- [Ransomware Kademeli İzolasyonu](playbooks/01-ransomware-izolasyon.md)
+- [Yetkisiz Lojik Değişikliği ve Adli Bilişim](playbooks/02-unauthorized-logic-forensics.md)
+- [Protokol Sahteciliği ve DoS Müdahalesi](playbooks/03-protokol-sahteciligi-mudahale.md)
+- [Güvenli Hizmete Dönüş (5-Gate)](playbooks/04-guvenli-hizmete-donus.md)
+- [Tedarikçi ve PAM İhlali Müdahalesi](playbooks/05-tedarikci-pam-ihlali.md)
+
 ## Normal hizmete dönüş koşulları
 
 İlk olarak olayın nedeni ve kapsamı yeterince sınırlandırılmış olmalıdır. Sonra geri yüklenen proje/ayarın güvenilir sürümle eşleşmesi, cihaz ve yazılım uyumluluğu, zaman ve kimlik hizmetleri, saha ölçümü ve ilgili emniyet işlevleri yetkili ekiplerce değerlendirilir. Çalışır sunucu ile doğrulanmış süreç ayrı kabul maddeleridir.
