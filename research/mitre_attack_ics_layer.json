@@ -1,8 +1,8 @@
 {
   "name": "OT Guvenligi Rehberi - Sektorel Tehdit ve Savunma Matrisi",
   "versions": {
-    "attack": "14",
-    "navigator": "4.9.5",
+    "attack": "19",
+    "navigator": "5.0.0",
     "layer": "4.5"
   },
   "domain": "ics-attack",
