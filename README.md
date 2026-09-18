@@ -62,7 +62,7 @@ Başlangıç programı: [sekiz haftalık öğrenme yolu](docs/00-ogrenme-yolu.md
 ### 5. Uygulama ve başvuru
 
 - [Çevrimdışı laboratuvarlar](labs/README.md): kayıt analizi, mimari inceleme, masa başı tatbikatı, kurtarma doğrulama, bütünleşik su tesisi ve sanal laboratuvar tasarımı
-- [Kopyalanabilir çalışma şablonları](templates/README.md) (11 Şablon: BİGR EKS ve IEC 62443 dahil)
+- [Kopyalanabilir çalışma şablonları](templates/README.md) (13 Şablon: BİGR EKS, IEC 62443, RBAC ve Güvenli PLC Kodlama dahil)
 - [Standartlar ve Türkiye'de resmî başvuru noktaları](docs/05-standartlar-ve-turkiye.md)
 - [Türkçe–İngilizce sözlük](docs/06-sozluk.md)
 - [Kaynak kataloğu](KAYNAKLAR.md) ve [araştırma yöntemi](research/YONTEM.md)
@@ -73,12 +73,14 @@ Başlangıç programı: [sekiz haftalık öğrenme yolu](docs/00-ogrenme-yolu.md
 - [On dört protokol ailesi: taşıma, işlev ve güvenlik profilleri](docs/07-protokoller/01-protokol-katalogu.md)
 - [Modbus ve OPC UA güvenliği](docs/07-protokoller/02-modbus-ve-opc-ua-guvenligi.md)
 - [Çevrimdışı trafik analizi ve protokol seçimi](docs/07-protokoller/03-trafik-analizi-ve-protokol-secimi.md)
+- [IEC 62351 endüstriyel haberleşme güvenliği ve kriptografi](docs/07-protokoller/04-iec-62351-kriptografi-ve-guvenlik.md)
 
 ### 7. Mimari, kimlik ve varlık güvenliği
 
 - [Zero Trust, RBAC, ABAC ve PAM](docs/08-mimari-ve-erisim/01-zero-trust-rbac-ve-pam.md)
 - [Firewall, IDMZ ve uzak erişim tasarımı](docs/08-mimari-ve-erisim/02-firewall-dmz-ve-uzak-erisim.md)
 - [PLC, HMI, SCADA ve destek varlıklarını sıkılaştırma](docs/08-mimari-ve-erisim/03-plc-hmi-ve-scada-sikilastirma.md)
+- [Top 20 güvenli PLC programlama uygulamaları](docs/08-mimari-ve-erisim/04-guvenli-plc-programlama-top20.md)
 
 ### 8. Değerlendirme ve savunma çalışmaları
 
@@ -86,13 +88,14 @@ Başlangıç programı: [sekiz haftalık öğrenme yolu](docs/00-ogrenme-yolu.md
 - [OT SOC, altı algılama tasarımı ve adli inceleme](docs/09-degerlendirme/02-izleme-soc-ve-adli-inceleme.md)
 - [STRIDE, ATT&CK, saldırı ağaçları ve beş malware örneği](docs/09-degerlendirme/03-tehdit-modelleme-ve-vakalar.md)
 - [Elli hata: risk, etki, algılama ve düzeltme](docs/09-degerlendirme/04-elli-yaygin-hata.md)
+- [OT ağlarında tehdit avcılığı ve IDS kural mühendisliği](docs/09-degerlendirme/05-ot-tehdit-avciligi-ve-ids-kurallari.md)
 
 ### 9. Araçlar, ürünler ve maliyet
 
 - [Ticari ve açık kaynak araçların işlev/lisans karşılaştırması](docs/10-araclar-ve-maliyet/01-arac-ve-urun-karsilastirmasi.md)
 - [Siemens güvenliği ve UMC merkezi kullanıcı yönetimi](docs/10-araclar-ve-maliyet/02-siemens-ve-merkezi-kullanici-yonetimi.md)
 - [Budget, Professional ve Enterprise maliyet modelleri](docs/10-araclar-ve-maliyet/03-maliyet-ve-secim-modeli.md)
-- [Çalışma şablonları](templates/README.md): [OT RBAC ve UMC tasarımı](templates/12-ot-rbac-ve-umc-tasarim-sablonu.md), [BİGR EKS matrisi](templates/10-bigr-eks-denetim-matrisi.md), [IEC 62443 öz değerlendirme](templates/11-iec-62443-oz-degerlendirme.md), [ders/değerlendirme](templates/07-ders-ve-degerlendirme.md), [risk kaydı](templates/08-degerlendirme-ve-risk-kaydi.md), [final teslimleri](templates/09-final-proje-teslimleri.md)
+- [Çalışma şablonları](templates/README.md): [Güvenli PLC kodlama](templates/13-guvenli-plc-kodlama-denetim-matrisi.md), [OT RBAC ve UMC tasarımı](templates/12-ot-rbac-ve-umc-tasarim-sablonu.md), [BİGR EKS matrisi](templates/10-bigr-eks-denetim-matrisi.md), [IEC 62443 öz değerlendirme](templates/11-iec-62443-oz-degerlendirme.md), [ders/değerlendirme](templates/07-ders-ve-degerlendirme.md), [risk kaydı](templates/08-degerlendirme-ve-risk-kaydi.md), [final teslimleri](templates/09-final-proje-teslimleri.md)
 
 ## İçeriğin sınırları ve kullanımı
 

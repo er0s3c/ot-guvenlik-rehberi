@@ -21,7 +21,7 @@ Bu harita, elli öğrenme başlığını deponun Markdown içeriklerine bağlar.
 | 04 | Zero Trust OT | [Kimlik ve politika](08-mimari-ve-erisim/01-zero-trust-rbac-ve-pam.md) | Kullanıcı/cihaz/politika kararları |
 | 05 | RBAC | [Rol matrisi](08-mimari-ve-erisim/01-zero-trust-rbac-ve-pam.md), [şablon](../templates/12-ot-rbac-ve-umc-tasarim-sablonu.md) | Sekiz rolün sistem/işlem yetkisi ve üretici eşlemeleri |
 | 06 | PAM | [Ayrıcalıklı erişim](08-mimari-ve-erisim/01-zero-trust-rbac-ve-pam.md) | Sır, onay, oturum ve iptal yaşam döngüsü |
-| 07 | OT protokolleri | [On dört aile](07-protokoller/01-protokol-katalogu.md) | Taşıma, port, işlev ve güvenlik profili tablosu |
+| 07 | OT protokolleri | [On dört aile](07-protokoller/01-protokol-katalogu.md), [IEC 62351](07-protokoller/04-iec-62351-kriptografi-ve-guvenlik.md) | Taşıma, port, işlev ve kriptografi profilleri |
 | 08 | Protokol seçimi | [Karar karşılaştırmaları](07-protokoller/03-trafik-analizi-ve-protokol-secimi.md) | Dört karşılaştırma için gerekçeli seçim |
 | 09 | Modbus güvenliği | [Modbus ve OPC UA](07-protokoller/02-modbus-ve-opc-ua-guvenligi.md) | İşlem türü, yetki ve telafi kontrolü |
 | 10 | OPC UA güvenliği | [Güvenli iletişim](07-protokoller/02-modbus-ve-opc-ua-guvenligi.md) | Uç, kullanıcı, sertifika ve politika kabulü |
@@ -29,7 +29,7 @@ Bu harita, elli öğrenme başlığını deponun Markdown içeriklerine bağlar.
 | 12 | Segmentasyon | [Bölge geçişleri](08-mimari-ve-erisim/02-firewall-dmz-ve-uzak-erisim.md) | VLAN, yönlendirme ve izin/ret ayrımı |
 | 13 | Industrial DMZ | [Servis yerleşimi](08-mimari-ve-erisim/02-firewall-dmz-ve-uzak-erisim.md) | Bakım, kopyalama ve güncelleme akışları |
 | 14 | SIEM + OT | [Kayıt mimarisi](09-degerlendirme/02-izleme-soc-ve-adli-inceleme.md) | Alan modeli, veri sağlığı ve bağlam |
-| 15 | OT IDS/IPS | [Gözlem ve müdahale](09-degerlendirme/02-izleme-soc-ve-adli-inceleme.md), [araçlar](10-araclar-ve-maliyet/01-arac-ve-urun-karsilastirmasi.md) | Sensör kapsamı ve inline etki incelemesi |
+| 15 | OT IDS/IPS | [Gözlem ve müdahale](09-degerlendirme/02-izleme-soc-ve-adli-inceleme.md), [tehdit avcılığı](09-degerlendirme/05-ot-tehdit-avciligi-ve-ids-kurallari.md), [kurallar](../research/suricata-ics-rules.rules) | Sensör kapsamı, Zeek logları ve Suricata imzaları |
 | 16 | Varlık keşfi | [Envanter](04-savunma/01-envanter-ve-gorunurluk.md), [form](../templates/01-envanter-ve-akis.md) | Kaynaklı varlık/iletişim envanteri |
 | 17 | Zafiyet yönetimi | [Karar yöntemi](09-degerlendirme/01-guvenlik-degerlendirmesi-ve-test-plani.md), [değişiklik](04-savunma/04-zafiyet-ve-degisiklik-yonetimi.md) | Etkilenme, işletme riski ve işlem kaydı |
 | 18 | Penetrasyon testi | [On beş aşama](09-degerlendirme/01-guvenlik-degerlendirmesi-ve-test-plani.md) | Yetki, RoE ve değerlendirme planı |
@@ -37,7 +37,7 @@ Bu harita, elli öğrenme başlığını deponun Markdown içeriklerine bağlar.
 | 20 | OT Red Team | [Senaryo ve emülasyon](09-degerlendirme/03-tehdit-modelleme-ve-vakalar.md) | Amaç, varsayım, gözlem ve durdurma sınırları |
 | 21 | ATT&CK for ICS | [Teknikler](03-tehdit-modelleme/02-mitre-attack-ics.md), [taktikler](09-degerlendirme/03-tehdit-modelleme-ve-vakalar.md) | Davranış–kanıt–kontrol eşlemesi |
 | 22 | OT malware | [Beş örnek](09-degerlendirme/03-tehdit-modelleme-ve-vakalar.md), [vaka ayrımları](03-tehdit-modelleme/03-gercek-vakalar.md) | Olgu, belirsizlik ve savunma dersi |
-| 23 | PLC security | [Varlık kontrolleri](08-mimari-ve-erisim/03-plc-hmi-ve-scada-sikilastirma.md), [Siemens](10-araclar-ve-maliyet/02-siemens-ve-merkezi-kullanici-yonetimi.md) | Proje/CPU/firmware ve mühendislik kabulü |
+| 23 | PLC security | [Varlık kontrolleri](08-mimari-ve-erisim/03-plc-hmi-ve-scada-sikilastirma.md), [güvenli kodlama](08-mimari-ve-erisim/04-guvenli-plc-programlama-top20.md), [şablon](../templates/13-guvenli-plc-kodlama-denetim-matrisi.md) | Top 20 kuralları, SCL lojik denetimi ve kabul |
 | 24 | Siemens security | [Ürün ve sürüm kapsamı](10-araclar-ve-maliyet/02-siemens-ve-merkezi-kullanici-yonetimi.md) | Model/sürüm/lisans/kanıt tablosu |
 | 25 | SCADA security | [SCADA ilişkileri](08-mimari-ve-erisim/03-plc-hmi-ve-scada-sikilastirma.md) | Alarm, DB, historian ve yedeklilik bağımlılığı |
 | 26 | HMI security | [HMI kontrol listesi](08-mimari-ve-erisim/03-plc-hmi-ve-scada-sikilastirma.md) | Kullanıcı, servis, medya ve kalite incelemesi |
@@ -62,7 +62,7 @@ Bu harita, elli öğrenme başlığını deponun Markdown içeriklerine bağlar.
 | 45 | Elektrik şebekesi | [Elektrik ve enerji](02-sektorler/02-elektrik-ve-enerji.md), [15 senaryo](02-sektorler/senaryolar/02-elektrik-enerji-senaryolari.md) | RTU/IED/SCADA, telekontrol ve bağımlılık değerlendirmesi |
 | 46 | Su yönetimi | [Sektör](02-sektorler/01-su-ve-atiksu.md), [15 senaryo](02-sektorler/senaryolar/01-su-ve-atiksu-senaryolari.md) | Fiziksel süreçten kontrol gereksinimine eşleme |
 | 47 | OT SOC | [Rol ve vardiya modeli](09-degerlendirme/02-izleme-soc-ve-adli-inceleme.md) | Tier rolleri, işletme teyidi ve devir kaydı |
-| 48 | Detection engineering | [Altı mantık ve test girdileri](09-degerlendirme/02-izleme-soc-ve-adli-inceleme.md) | Normal, şüpheli ve veri eksikliği ayrımı |
+| 48 | Detection engineering | [Altı mantık](09-degerlendirme/02-izleme-soc-ve-adli-inceleme.md), [tehdit avcılığı](09-degerlendirme/05-ot-tehdit-avciligi-ve-ids-kurallari.md) | Normal, şüpheli ve ICS imza kuralları |
 | 49 | Threat modeling | [Dört yöntem](09-degerlendirme/03-tehdit-modelleme-ve-vakalar.md), [62 senaryo kataloğu](02-sektorler/senaryolar/README.md) | Tek PLC için gerekçeli tehdit modeli |
 | 50 | Final proje | [Yirmi üç teslim](../templates/09-final-proje-teslimleri.md), [örnek](../labs/05-butunlesik-su-tesisi.md) | İzlenebilir danışmanlık dosyası |
 
