@@ -1,6 +1,6 @@
 # OT Rol Tabanlı Erişim Kontrolü (RBAC) ve Siemens UMC Tasarım Şablonu
 
-[Şablonlar Ana Sayfası](README.md) · [Zero Trust, RBAC ve PAM](../docs/08-mimari-ve-erisim/01-zero-trust-rbac-ve-pam.md) · [Siemens ve Merkezi Kullanıcı Yönetimi](../docs/10-araclar-ve-maliyet/02-siemens-ve-merkezi-kullanici-yonetimi.md) · [BİGR EKS Matrisi](10-bigr-eks-denetim-matrisi.md)
+[Şablonlar Ana Sayfası](README.md) · [RBAC Seçim Rehberi](../docs/08-mimari-ve-erisim/rbac/00-secim-ve-karsilastirma.md) · [Siemens UMC](../docs/08-mimari-ve-erisim/rbac/03-siemens-simatic-umc.md) · [Zero Trust ve PAM](../docs/08-mimari-ve-erisim/rbac/05-pam-ve-zero-trust.md) · [BİGR EKS Matrisi](10-bigr-eks-denetim-matrisi.md)
 
 Bu mühendislik şablonu; endüstriyel otomasyon ortamlarında (OT/ICS) Rol Tabanlı Erişim Kontrolü (RBAC) mimarisinin tasarlanması, Active Directory (AD) $\to$ SIMATIC UMC $\to$ TIA Portal UMAC $\to$ WinCC Unified ve S7-1500 PLC yetki zincirinin yapılandırılması, çoklu üretici (Rockwell FTSEC, Schneider, OPC UA) hak eşlemelerinin yapılması ve acil durum (Break-Glass) hesaplarının denetimi için hazırlanmıştır.
 

@@ -77,7 +77,8 @@ Başlangıç programı: [sekiz haftalık öğrenme yolu](docs/00-ogrenme-yolu.md
 
 ### 7. Mimari, kimlik ve varlık güvenliği
 
-- [Zero Trust, RBAC, ABAC ve PAM](docs/08-mimari-ve-erisim/01-zero-trust-rbac-ve-pam.md)
+- [OT Kimlik ve Erişim Yönetimi (RBAC Seçim Rehberi)](docs/08-mimari-ve-erisim/rbac/00-secim-ve-karsilastirma.md): [Active Directory](docs/08-mimari-ve-erisim/rbac/01-active-directory-ve-ldap.md), [RADIUS/TACACS+](docs/08-mimari-ve-erisim/rbac/02-radius-ve-tacacs.md), [Siemens UMC](docs/08-mimari-ve-erisim/rbac/03-siemens-simatic-umc.md), [Çoklu Üretici](docs/08-mimari-ve-erisim/rbac/04-coklu-uretici-ve-opc-ua.md), [PAM](docs/08-mimari-ve-erisim/rbac/05-pam-ve-zero-trust.md)
+- [Zero Trust, RBAC, ABAC ve PAM çerçevesi](docs/08-mimari-ve-erisim/01-zero-trust-rbac-ve-pam.md)
 - [Firewall, IDMZ ve uzak erişim tasarımı](docs/08-mimari-ve-erisim/02-firewall-dmz-ve-uzak-erisim.md)
 - [PLC, HMI, SCADA ve destek varlıklarını sıkılaştırma](docs/08-mimari-ve-erisim/03-plc-hmi-ve-scada-sikilastirma.md)
 - [Top 20 güvenli PLC programlama uygulamaları](docs/08-mimari-ve-erisim/04-guvenli-plc-programlama-top20.md)

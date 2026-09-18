@@ -1,6 +1,9 @@
 # OT'de Zero Trust, RBAC ve ayrıcalıklı erişim
 
-[Ana sayfa](../../README.md) · [Mimari ve güven bölgeleri](../01-temeller/03-mimari-ve-guven-bolgeleri.md) · [Firewall, DMZ ve uzak erişim](02-firewall-dmz-ve-uzak-erisim.md) · [Araştırma kaydı](../../research/mimari-erisim-kaynaklar.md)
+[Ana sayfa](../../README.md) · [RBAC Seçim Rehberi](rbac/00-secim-ve-karsilastirma.md) · [Active Directory](rbac/01-active-directory-ve-ldap.md) · [RADIUS ve TACACS+](rbac/02-radius-ve-tacacs.md) · [Siemens UMC](rbac/03-siemens-simatic-umc.md) · [Firewall ve DMZ](02-firewall-dmz-ve-uzak-erisim.md) · [Tasarım Şablonu](../../templates/12-ot-rbac-ve-umc-tasarim-sablonu.md)
+
+> [!NOTE]
+> **Modüler Rehber:** OT kimlik çözümlerinin (Active Directory, RADIUS, Siemens SIMATIC UMC, Rockwell FTSEC, Schneider, PAM) ayrıntılı mimarileri, karşılaştırma matrisleri ve artı/eksi analizleri için **[RBAC ve Kimlik Yönetimi Klasörünü](rbac/00-secim-ve-karsilastirma.md)** inceleyebilirsiniz.
 
 Bir bakım kullanıcısının ağa girebilmesi, PLC programını değiştirmeye yetkili olduğu anlamına gelmez. Kimlik doğrulama, bir kişinin veya cihazın kimliğini sınar; yetkilendirme, belirli bir kaynak üzerinde hangi işlemi yapabileceğini belirler. OT tasarımında bu kararın kontrol döngüsüne ve arıza sırasında işletmeye etkisi de incelenir. NIST, Zero Trust uygulamalarında eski OT bileşenlerinin uyumsuzluğunu, ek gecikmeyi ve erişim bileşenlerinin kullanılamamasını özellikle ele alır. [NIST SP 800-82r3, §5.2.3.4](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf)
 

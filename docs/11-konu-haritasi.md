@@ -18,9 +18,9 @@ Bu harita, elli öğrenme başlığını deponun Markdown içeriklerine bağlar.
 | 01 | OT/ICS temelleri | [OT](01-temeller/01-ot-nedir.md), [bileşenler](01-temeller/02-kontrol-dongusu-ve-bilesenler.md) | IT–OT farkı ve kontrol döngüsü |
 | 02 | OT/ICS mimarisi | [Mimari ve akış](08-mimari-ve-erisim/02-firewall-dmz-ve-uzak-erisim.md) | MES/ERP dahil işlev ve veri/kontrol akışı |
 | 03 | Purdue modeli | [Temel model](01-temeller/03-mimari-ve-guven-bolgeleri.md), [ileri mimari](08-mimari-ve-erisim/02-firewall-dmz-ve-uzak-erisim.md) | Seviye, bölge ve geçiş gerekçesi |
-| 04 | Zero Trust OT | [Kimlik ve politika](08-mimari-ve-erisim/01-zero-trust-rbac-ve-pam.md) | Kullanıcı/cihaz/politika kararları |
-| 05 | RBAC | [Rol matrisi](08-mimari-ve-erisim/01-zero-trust-rbac-ve-pam.md), [şablon](../templates/12-ot-rbac-ve-umc-tasarim-sablonu.md) | Sekiz rolün sistem/işlem yetkisi ve üretici eşlemeleri |
-| 06 | PAM | [Ayrıcalıklı erişim](08-mimari-ve-erisim/01-zero-trust-rbac-ve-pam.md) | Sır, onay, oturum ve iptal yaşam döngüsü |
+| 04 | Zero Trust OT | [Kimlik ve politika](08-mimari-ve-erisim/01-zero-trust-rbac-ve-pam.md), [Zero Trust](08-mimari-ve-erisim/rbac/05-pam-ve-zero-trust.md) | Kullanıcı/cihaz/politika kararları ve JIT erişim |
+| 05 | RBAC | [RBAC seçim rehberi](08-mimari-ve-erisim/rbac/00-secim-ve-karsilastirma.md), [şablon](../templates/12-ot-rbac-ve-umc-tasarim-sablonu.md) | AD, RADIUS, UMC, üretici ve OPC UA yetki eşlemeleri |
+| 06 | PAM | [PAM ve kasa](08-mimari-ve-erisim/rbac/05-pam-ve-zero-trust.md) | Sır, onay, oturum ve break-glass kasalama |
 | 07 | OT protokolleri | [On dört aile](07-protokoller/01-protokol-katalogu.md), [IEC 62351](07-protokoller/04-iec-62351-kriptografi-ve-guvenlik.md) | Taşıma, port, işlev ve kriptografi profilleri |
 | 08 | Protokol seçimi | [Karar karşılaştırmaları](07-protokoller/03-trafik-analizi-ve-protokol-secimi.md) | Dört karşılaştırma için gerekçeli seçim |
 | 09 | Modbus güvenliği | [Modbus ve OPC UA](07-protokoller/02-modbus-ve-opc-ua-guvenligi.md) | İşlem türü, yetki ve telafi kontrolü |
@@ -52,7 +52,7 @@ Bu harita, elli öğrenme başlığını deponun Markdown içeriklerine bağlar.
 | 35 | Hardening | [Yedi varlık sınıfı](08-mimari-ve-erisim/03-plc-hmi-ve-scada-sikilastirma.md) | Kontrol, kanıt, doğrulayan ve tarih |
 | 36 | Ticari ürün karşılaştırması | [Ürün tablosu](10-araclar-ve-maliyet/01-arac-ve-urun-karsilastirmasi.md) | İşlev, dağıtım, kısıt ve lisans karşılaştırması |
 | 37 | Açık kaynak seçenekleri | [Araç/lisans ayrımları](10-araclar-ve-maliyet/01-arac-ve-urun-karsilastirmasi.md) | Karşılanan ve açık kalan işlevler |
-| 38 | Siemens UMC | [Merkezi kullanıcı yönetimi](10-araclar-ve-maliyet/02-siemens-ve-merkezi-kullanici-yonetimi.md), [şablon](../templates/12-ot-rbac-ve-umc-tasarim-sablonu.md) | UMC ring server, S7-1500 central logon ve break-glass |
+| 38 | Siemens UMC | [SIMATIC UMC](08-mimari-ve-erisim/rbac/03-siemens-simatic-umc.md), [şablon](../templates/12-ot-rbac-ve-umc-tasarim-sablonu.md) | UMC ring server, S7-1500 central logon ve break-glass |
 | 39 | Maliyet | [Üç mimari ve hesap](10-araclar-ve-maliyet/03-maliyet-ve-secim-modeli.md) | Teklif/varsayım ayrımı ve toplam maliyet |
 | 40 | IEC 62443 | [Standartlar](05-standartlar-ve-turkiye.md), [kanıt eşlemesi](09-degerlendirme/01-guvenlik-degerlendirmesi-ve-test-plani.md) | Zone/conduit ve güvenlik seviyesi bağlamı |
 | 41 | NIST SP 800-82 | [Değerlendirme eşlemesi](09-degerlendirme/01-guvenlik-degerlendirmesi-ve-test-plani.md) | Öneri, yerel kontrol ve kanıt matrisi |
